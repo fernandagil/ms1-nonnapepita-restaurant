@@ -6,12 +6,51 @@ body {
     font-family: "Josefin Slab", sans-serif;
 }
 
-nav ul {
+.navbar {
+    padding: 2%;
+}
+
+
+
+.logo {
+    margin-top: 5px;
+    font-family: "Fredericka the Great", sans-serif;
+    font-size: 2em;
+    padding: .25rem .75rem;
+    line-height: 1;
+}
+
+.logo img {
+    border-radius: 25%;
+    width: 2.1rem;
+    height: 2.1rem;
+}
+
+.navbar-toggler {
+    color: #fafafa;
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 2px dotted #fafafa;
+    border-radius: .25rem;
+
+.navbar-nav {
+    margin-top: 12px;
+}
+
+.nav-link {
+    padding-right: 7%;
+}
+
+
+
+/* nav ul {
     list-style: none;
     font-family: "Fredericka the Great", sans-serif;
-    background-color: #4a4a4a; 
+    background-color: #4a4a4a;  */
     /* cambiar bgcolor*/ 
-    text-align: center;
+    /* text-align: center;
     padding: 0;
     margin: 0;
 }
@@ -32,6 +71,6 @@ nav a {
 
 nav a:hover {
     /* font-size: 120%; find out how to hover sin que se mueva todo el navbar */
-    color: #03989e;
+    /* color: #03989e;
     text-decoration: none;
-}
+}  */ */
