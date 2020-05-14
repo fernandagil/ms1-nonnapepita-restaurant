@@ -1,2 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Josefin+Slab&display=swap');
 
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Josefin Slab", sans-serif;
+}
+
+nav ul {
+    list-style: none;
+    font-family: "Fredericka the Great", sans-serif;
+    background-color: #4a4a4a; 
+    /* cambiar bgcolor*/ 
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    font-size: 1.8em;
+    line-height: 40px;
+    height: 40px;
+    display: inline-block;
+    margin: 2%;
+}
+
+nav a {
+    color: #fafafa;
+    text-decoration: none;
+    display: block;
+}
+
+nav a:hover {
+    /* font-size: 120%; find out how to hover sin que se mueva todo el navbar */
+    color: #03989e;
+    text-decoration: none;
+}
