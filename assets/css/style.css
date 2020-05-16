@@ -6,12 +6,31 @@ body {
     font-family: "Josefin Slab", sans-serif;
 }
 
+h1 {
+
+}
+
+h2 {
+
+}
+
+.h2-line {
+
+}
+
+.h2-line span {
+
+}
+
+
+
+/* --------------------------------------------- HEADER */
 .navbar {
     padding: 2%;
 }
 
 
-
+/* --------------------------------------------- HEADER: LOGO */
 .logo {
     margin-top: 5px;
     font-family: "Fredericka the Great", sans-serif;
@@ -26,6 +45,7 @@ body {
     height: 2.1rem;
 }
 
+/* --------------------------------------------- HEADER: MAIN MENU */
 .navbar-toggler {
     color: #fafafa;
     padding: .25rem .75rem;
@@ -34,43 +54,49 @@ body {
     background-color: transparent;
     border: 2px dotted #fafafa;
     border-radius: .25rem;
-
-.navbar-nav {
-    margin-top: 12px;
 }
+
+.navbar-nav .nav-link {
+    margin-top: 12px;
+    padding: 4px 12px;
+    font-size: 1.5rem;
+    align-items: flex-end;
+}
+/* 
+.mr-auto, .mx-auto {
+    margin-left: 10rem;
+} ver cómo puedo poner el menú a la derecha */
 
 .nav-link {
     padding-right: 7%;
 }
 
+/* --------------------------------------------- SECTION */
 
+.container {
 
-/* nav ul {
-    list-style: none;
-    font-family: "Fredericka the Great", sans-serif;
-    background-color: #4a4a4a;  */
-    /* cambiar bgcolor*/ 
-    /* text-align: center;
-    padding: 0;
-    margin: 0;
 }
 
-nav li {
-    font-size: 1.8em;
-    line-height: 40px;
-    height: 40px;
-    display: inline-block;
-    margin: 2%;
+/* --------------------------------------------- SECTION: CALLOUT */
+
+.callout {
+
 }
 
-nav a {
-    color: #fafafa;
-    text-decoration: none;
-    display: block;
+/* --------------------------------------------- SECTION: HISTORY */
+
+.history {
+
 }
 
-nav a:hover {
-    /* font-size: 120%; find out how to hover sin que se mueva todo el navbar */
-    /* color: #03989e;
-    text-decoration: none;
-}  */ */
+/* --------------------------------------------- SECTION: MAKE A RESERVATION */
+
+.reservation {
+
+}
+
+/* --------------------------------------------- SECTION: WHERE TO FIND US */
+
+.location {
+
+}
