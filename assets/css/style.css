@@ -32,17 +32,16 @@ h2 {
 
 /* --------------------------------------------- HEADER: LOGO */
 .logo {
-    margin-top: 5px;
     font-family: "Fredericka the Great", sans-serif;
-    font-size: 2em;
+    font-size: 1.8em;
     padding: .25rem .75rem;
     line-height: 1;
 }
 
 .logo img {
     border-radius: 25%;
-    width: 2.1rem;
-    height: 2.1rem;
+    width: 1.8rem;
+    height: 1.8rem;
 }
 
 /* --------------------------------------------- HEADER: MAIN MENU */
@@ -52,20 +51,16 @@ h2 {
     font-size: 1.25rem;
     line-height: 1;
     background-color: transparent;
-    border: 2px dotted #fafafa;
+    border: 3px dotted #fafafa;
     border-radius: .25rem;
 }
 
 .navbar-nav .nav-link {
-    margin-top: 12px;
     padding: 4px 12px;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     align-items: flex-end;
 }
-/* 
-.mr-auto, .mx-auto {
-    margin-left: 10rem;
-} ver cómo puedo poner el menú a la derecha */
+
 
 .nav-link {
     padding-right: 7%;
