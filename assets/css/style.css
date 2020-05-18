@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Josefin+Slab&display=swap');
 
+
 body {
+    background-image: url(../images/bg-image3.jpg);
     margin: 0;
     padding: 0;
     font-family: "Josefin Slab", sans-serif;
+    /* background: url(assets/images/bg-image1.jpg) center no-repeat; */
+    color: #fafafa;
 }
 
 h1 {
@@ -11,7 +15,7 @@ h1 {
 }
 
 h2 {
-
+    font-family: "Fredericka the Great", sans-serif;
 }
 
 .h2-line {
@@ -20,6 +24,49 @@ h2 {
 
 .h2-line span {
 
+}
+
+.row {
+    margin: 0;
+}
+
+/* --------------------------------------------- BLOCK DIVIDERS */
+
+.block-divider {
+    /* border-top: 3px double #fafafa;
+    content: "";
+    display: table-cell;
+    position: relative;
+    top: 0.5em;
+    width: 35%; */
+    width: 50%;
+    height: 1px;
+    border: 0;
+    background-color: #fafafa;
+}
+
+/* --------------------------------------------- BUTTONS */
+
+.btn--book {
+    font-weight: bold;
+    border-radius: 12px;
+    width: 180px;
+    text-transform: uppercase;
+    line-height: 2.5;
+}
+
+.btn--white {
+    color: #fafafa;
+    background-color: #43755852;
+    border-color: #437558;
+}
+
+.btn--white:hover,
+.btn--white:active,
+.btn--white:focus,
+.btn--white:active:focus {
+    background-color: #437558;
+    border-color: #2f533e;
 }
 
 
@@ -34,7 +81,7 @@ h2 {
 .logo {
     font-family: "Fredericka the Great", sans-serif;
     font-size: 1.8em;
-    padding: .25rem .75rem;
+    padding: .25rem .55rem;
     line-height: 1;
 }
 
@@ -47,12 +94,12 @@ h2 {
 /* --------------------------------------------- HEADER: MAIN MENU */
 .navbar-toggler {
     color: #fafafa;
-    padding: .25rem .75rem;
-    font-size: 1.25rem;
+    padding: .25rem .55rem;
+    font-size: 1rem;
     line-height: 1;
     background-color: transparent;
     border: 3px dotted #fafafa;
-    border-radius: .25rem;
+    border-radius: .3rem;
 }
 
 .navbar-nav .nav-link {
@@ -66,16 +113,54 @@ h2 {
     padding-right: 7%;
 }
 
-/* --------------------------------------------- SECTION */
-
-.container {
-
-}
 
 /* --------------------------------------------- SECTION: CALLOUT */
 
-.callout {
+.callout-container {
+    height: 100vh;
 
+    background: url(../images/blackboard4.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron-header {
+    color: #fafafa;
+    font-size: 4rem;
+    margin-bottom: 30px;
+    font-family: "Fredericka the Great", sans-serif;
+}
+
+.jumbotron p {
+    font-size: 1.7rem;
+    color: #fafafa;
+    margin-top: 2rem;
+}
+
+.welcome {
+    font-size: 2rem;
+    font-family: "Fredericka the Great", sans-serif;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0),0,0,0.5);
 }
 
 /* --------------------------------------------- SECTION: HISTORY */

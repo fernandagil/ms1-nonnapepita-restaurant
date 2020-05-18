@@ -4,8 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" type="text/css" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      type="text/css"
+    />
     <link rel="stylesheet" href="assets/css/style.css" />
     <title>Nonna Pepita</title>
   </head>
@@ -14,100 +22,163 @@
     <!-- HEADER -->
 
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand logo" href="index.html">
-            <img src="assets/images/nonnalogo.png" class="d-inline-block align-top" alt="Nonna Pepita Restaurant"> Nonna Pepita</a>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand logo" href="index.html">
+          <img
+            src="assets/images/nonnalogo.png"
+            class="d-inline-block align-top"
+            alt="Nonna Pepita Restaurant"
+          />
+          Nonna Pepita</a
+        >
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Menu???</a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Lunch Menu</a>
-                            <a class="dropdown-item" href="#">Dinner Menu</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Menu???</a
+              >
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Lunch Menu</a>
+                <a class="dropdown-item" href="#">Dinner Menu</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
 
     <!-- SECTION -->
-    <article class="container mt-5">
-        <!-- callout -->
+
+    <!-- callout -->
+    <div class="container-fluid callout-container">
+      <div class="opaque-overlay">
         <div class="row">
-            <div class="col-12">
-                <section class="callout jumbotron text-center">
-                    <p class="lead">Welcome to</p>
-                    <h1 class="my-4">Nonna Pepita</h1>
-                    <p class="lead">Best homemade Italian pasta in town!</p>
+          <div class="col-12">
+            <section class="callout jumbotron text-center">
+              <h3 class="lead welcome">Welcome to</h3>
+              <h1 class="my-4 jumbotron-header">Nonna Pepita</h1>
+              <hr class="block-divider" />
+              <p class="lead">Best homemade Italian pizza in town!</p>
 
-                    <button class="btn btn-outline-secondary">Book a table</button>
-                </section>
-            </div>
+              <button class="btn btn-outline-secondary btn--book btn--white">Book a table</button>
+            </section>
+          </div>
         </div>
+      </div>
+    </div>
 
-        <!-- history -->
-        <div class="row">
-            <div class="col-12 my-4">
-                <section class="history">
-                    <h2 class="h2-line"><span> Discover Nonna Pepita <i class="fas fa-pizza-slice"></i></span></h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae eum dolores ea quam, dicta harum consequuntur illum accusamus atque, quae, quis dolore reiciendis. Ipsam, aliquam. Nulla accusamus veritatis eligendi odio.</p>
-                    <button class="btn btn-sm btn-outline-secondary">Read more</button>
-                </section>
-            </div>
-        </div>
+    <!-- history -->
+    <div class="row">
+      <div class="col-12 my-4">
+        <section class="history text-center">
+          <h2 class="h2-line">
+            <span
+              >Discover Nonna Pepita
+              <i class="fas fa-pizza-slice d-none d-sm-inline"></i
+            ></span>
+          </h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
+            eum dolores ea quam, dicta harum consequuntur illum accusamus atque,
+            quae, quis dolore reiciendis. Ipsam, aliquam. Nulla accusamus
+            veritatis eligendi odio.
+          </p>
+          <button class="btn btn-sm btn-outline-secondary">Read more</button>
+        </section>
+      </div>
+    </div>
 
-        <!-- make a reservation -->
-        <div class="row">
-            <div class="col-12 my-4">
-                <section class="reservation">
-                    <h2 class="h2-line"><span> Make a reservation </span></h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, obcaecati exercitationem. </p>
-                    
-                    <form><input type="text"><input type="submit" value="Book now!"></form>
-                </section>
-            </div>
-        </div>
+    <!-- make a reservation -->
+    <div class="row">
+      <div class="col-12 my-4">
+        <section class="reservation text-center">
+          <h2 class="h2-line">
+            <span>
+              Make a reservation
+              <i class="far fa-calendar-alt d-none d-sm-inline"></i
+            ></span>
+          </h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt,
+            obcaecati exercitationem.
+          </p>
 
-        <!-- where to find us -->
-        <div class="row">
-            <div class="col-12 my-4">
-                <section class="location">
-                    <h2 class="h2-line"><span> Where to find us </span></h2>
-                    <p>54 St Patrick's St,<br>
-                    Centre, Cork <br>
-                    6564332211<br>
-                    info@nonnapepita.com </p>
-                    <!-- insertar imagen -->
-                </section>
-            </div>
-        </div>
+          <form>
+            <input type="text" /><input type="submit" value="Book now!" />
+          </form>
+        </section>
+      </div>
+    </div>
 
-    </article>
-
-
+    <!-- where to find us -->
+    <div class="row">
+      <div class="col-12 my-4">
+        <section class="location text-center">
+          <h2 class="h2-line">
+            <span>
+              Where to find us
+              <i class="fas fa-map-marker-alt d-none d-sm-inline"></i
+            ></span>
+          </h2>
+          <p>
+            54 St Patrick's St,<br />
+            Centre, Cork <br />
+            6564332211<br />
+            info@nonnapepita.com
+          </p>
+          <!-- insertar imagen -->
+        </section>
+      </div>
+    </div>
 
     <!-- FOOTER -->
-    <footer>
-    
-    </footer>
+    <footer></footer>
 
-
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-   -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
