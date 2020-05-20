@@ -2,12 +2,13 @@
 
 
 body {
-    background-image: url(../images/bg-image3.jpg);
+    /* background-image: url(../images/bg-image3.jpg); */
+    background-color: #fafafa;
     margin: 0;
     padding: 0;
     font-family: "Josefin Slab", sans-serif;
     /* background: url(assets/images/bg-image1.jpg) center no-repeat; */
-    color: #fafafa;
+    color: #383838;
 }
 
 h1 {
@@ -45,6 +46,12 @@ h2 {
     background-color: #fafafa;
 }
 
+hr.dotted {
+  border-top: 3px dotted #a13232;
+  width: 50%;
+}
+
+
 /* --------------------------------------------- BUTTONS */
 
 .btn--book {
@@ -57,24 +64,43 @@ h2 {
 
 .btn--white {
     color: #fafafa;
-    background-color: #43755852;
-    border-color: #437558;
+    background-color: #a1323293;
+    border-color: #a13232;
 }
 
 .btn--white:hover,
 .btn--white:active,
 .btn--white:focus,
 .btn--white:active:focus {
-    background-color: #437558;
-    border-color: #2f533e;
+    background-color: #a13232;
+    border-color: #792626;
 }
 
+/* --------------------------------------------- CONTENT CONTAINERS */
+
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75;
+}
 
 
 /* --------------------------------------------- HEADER */
 .navbar {
-    padding: 2%;
+    padding: 1.5%;
+    z-index: 1;
+    background: url(../images/header-bg.jpg)
 }
+
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.page-header h2 {
+    margin-top: 0;
+}
+
 
 
 /* --------------------------------------------- HEADER: LOGO */
@@ -91,7 +117,7 @@ h2 {
     height: 1.8rem;
 }
 
-/* --------------------------------------------- HEADER: MAIN MENU */
+/* --------------------------------------------- HEADER: NAVBAR */
 .navbar-toggler {
     color: #fafafa;
     padding: .25rem .55rem;
@@ -102,12 +128,17 @@ h2 {
     border-radius: .3rem;
 }
 
-.navbar-nav .nav-link {
-    padding: 4px 12px;
-    font-size: 1.3rem;
-    align-items: flex-end;
+.navbar .navbar-toggler {
+    border: 0;
 }
 
+.navbar-nav .nav-link {
+    padding: 4px 12px;
+    font-size: 1.2rem;
+    align-items: flex-end;
+    font-weight: bold;
+    text-transform: uppercase;
+}
 
 .nav-link {
     padding-right: 7%;
@@ -151,7 +182,7 @@ h2 {
 
 .welcome {
     font-size: 2rem;
-    font-family: "Fredericka the Great", sans-serif;
+    font-family: "Josefin Slab", sans-serif;
 }
 
 .opaque-overlay {

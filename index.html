@@ -22,60 +22,62 @@
     <!-- HEADER -->
 
     <header>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand logo" href="index.html">
-          <img
-            src="assets/images/nonnalogo.png"
-            class="d-inline-block align-top"
-            alt="Nonna Pepita Restaurant"
-          />
-          Nonna Pepita</a
-        >
+      <div class="navbar-container">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <a class="navbar-brand logo" href="index.html">
+            <img
+              src="assets/images/nonnalogo.png"
+              class="d-inline-block align-top"
+              alt="Nonna Pepita Restaurant"
+            />
+            Nonna Pepita</a
+          >
 
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#"
-                >Home <span class="sr-only">(current)</span></a
-              >
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-                >Menu???</a
-              >
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Lunch Menu</a>
-                <a class="dropdown-item" href="#">Dinner Menu</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#"
+                  >Home <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  >Menu???</a
+                >
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Lunch Menu</a>
+                  <a class="dropdown-item" href="#">Dinner Menu</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
     </header>
 
     <!-- SECTION -->
@@ -86,12 +88,14 @@
         <div class="row">
           <div class="col-12">
             <section class="callout jumbotron text-center">
-              <h3 class="lead welcome">Welcome to</h3>
+              <p class="lead">Welcome to</p>
               <h1 class="my-4 jumbotron-header">Nonna Pepita</h1>
               <hr class="block-divider" />
               <p class="lead">Best homemade Italian pizza in town!</p>
 
-              <button class="btn btn-outline-secondary btn--book btn--white">Book a table</button>
+              <button class="btn btn-outline-secondary btn--book btn--white">
+                Book a table
+              </button>
             </section>
           </div>
         </div>
@@ -99,66 +103,71 @@
     </div>
 
     <!-- history -->
-    <div class="row">
-      <div class="col-12 my-4">
-        <section class="history text-center">
-          <h2 class="h2-line">
-            <span
-              >Discover Nonna Pepita
-              <i class="fas fa-pizza-slice d-none d-sm-inline"></i
-            ></span>
-          </h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
-            eum dolores ea quam, dicta harum consequuntur illum accusamus atque,
-            quae, quis dolore reiciendis. Ipsam, aliquam. Nulla accusamus
-            veritatis eligendi odio.
-          </p>
-          <button class="btn btn-sm btn-outline-secondary">Read more</button>
-        </section>
+    <div class="container content-container history-container">
+      <div class="row">
+        <div class="col-12 page-header">
+          <section class="history text-center">
+            <h2 class="h2-line">
+              <i class="fas fa-pizza-slice d-none d-sm-inline"></i><br />
+              <span>Discover Nonna Pepita </span>
+              <hr class="dotted" />
+            </h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Recusandae eum dolores ea quam, dicta harum consequuntur illum
+              accusamus atque, quae, quis dolore reiciendis. Ipsam, aliquam.
+              Nulla accusamus veritatis eligendi odio.
+            </p>
+            <button class="btn btn-sm btn-outline-secondary">Read more</button>
+          </section>
+        </div>
       </div>
     </div>
 
     <!-- make a reservation -->
-    <div class="row">
-      <div class="col-12 my-4">
-        <section class="reservation text-center">
-          <h2 class="h2-line">
-            <span>
-              Make a reservation
-              <i class="far fa-calendar-alt d-none d-sm-inline"></i
-            ></span>
-          </h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt,
-            obcaecati exercitationem.
-          </p>
+    <div class="container content-container reservation-container">
+      <div class="row">
+        <div class="col-12 page-header">
+          <section class="reservation text-center">
+            <h2 class="h2-line">
+              <i class="far fa-calendar-alt d-none d-sm-inline"></i><br />
+              <span>
+                Make a reservation
+              </span>
+            </h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt,
+              obcaecati exercitationem.
+            </p>
 
-          <form>
-            <input type="text" /><input type="submit" value="Book now!" />
-          </form>
-        </section>
+            <form>
+              <input type="text" /><input type="submit" value="Book now!" />
+            </form>
+          </section>
+        </div>
       </div>
     </div>
 
     <!-- where to find us -->
-    <div class="row">
-      <div class="col-12 my-4">
-        <section class="location text-center">
-          <h2 class="h2-line">
-            <span>
-              Where to find us
-              <i class="fas fa-map-marker-alt d-none d-sm-inline"></i
-            ></span>
-          </h2>
-          <p>
-            54 St Patrick's St,<br />
-            Centre, Cork <br />
-            6564332211<br />
-            info@nonnapepita.com
-          </p>
-          <!-- insertar imagen -->
-        </section>
+    <div class="container content-container location-container">
+      <div class="row">
+        <div class="col-12 page-header">
+          <section class="location text-center">
+            <h2 class="h2-line">
+              <i class="fas fa-map-marker-alt d-none d-sm-inline"></i><br />
+              <span>
+                Where to find us
+              </span>
+            </h2>
+            <p>
+              54 St Patrick's St,<br />
+              Centre, Cork <br />
+              6564332211<br />
+              info@nonnapepita.com
+            </p>
+            <!-- insertar imagen -->
+          </section>
+        </div>
       </div>
     </div>
 
