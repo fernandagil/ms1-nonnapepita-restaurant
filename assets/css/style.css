@@ -11,25 +11,32 @@ body {
     color: #383838;
 }
 
+.row {
+    margin: 0;
+}
+
+
+/* --------------------------------------------- HEADINGS */
+
 h1 {
 
 }
 
 h2 {
     font-family: "Fredericka the Great", sans-serif;
+    font-size: 2.3rem;
 }
 
-.h2-line {
-
-}
-
-.h2-line span {
+.h2-title {
 
 }
 
-.row {
-    margin: 0;
+.h2-title i {
+    margin-bottom: 0px;
+    line-height: 30px;
 }
+
+
 
 /* --------------------------------------------- BLOCK DIVIDERS */
 
@@ -46,11 +53,18 @@ h2 {
     background-color: #fafafa;
 }
 
-hr.dotted {
-  border-top: 3px dotted #a13232;
+.hr-dotted {
+  border-top: 3px dotted;
   width: 50%;
 }
 
+.hr-dotted--red {
+    color: #a13232;
+}
+
+.hr-dotted--white {
+    color: #fafafa;
+}
 
 /* --------------------------------------------- BUTTONS */
 
@@ -62,16 +76,16 @@ hr.dotted {
     line-height: 2.5;
 }
 
-.btn--white {
+.btn--red {
     color: #fafafa;
     background-color: #a1323293;
     border-color: #a13232;
 }
 
-.btn--white:hover,
-.btn--white:active,
-.btn--white:focus,
-.btn--white:active:focus {
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
+.btn--red:active:focus {
     background-color: #a13232;
     border-color: #792626;
 }
@@ -80,7 +94,16 @@ hr.dotted {
 
 .content-container {
     padding-top: 75px;
-    padding-bottom: 75;
+    padding-bottom: 75px;
+}
+
+.container-wrapper {
+    
+}
+
+.container-wrapper--reservation {
+    background-color: #a13232;
+    color: #fafafa;
 }
 
 
