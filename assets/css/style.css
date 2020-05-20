@@ -7,12 +7,18 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Josefin Slab", sans-serif;
+    font-size: 1.5rem;
     /* background: url(assets/images/bg-image1.jpg) center no-repeat; */
     color: #383838;
 }
 
 .row {
     margin: 0;
+}
+
+.top-bottom-bg {
+        background: url(../images/header-bg.jpg);
+        z-index: 2;
 }
 
 
@@ -111,7 +117,6 @@ h2 {
 .navbar {
     padding: 1.5%;
     z-index: 1;
-    background: url(../images/header-bg.jpg)
 }
 
 .page-header {
@@ -129,13 +134,13 @@ h2 {
 /* --------------------------------------------- HEADER: LOGO */
 .logo {
     font-family: "Fredericka the Great", sans-serif;
-    font-size: 1.8em;
+    font-size: 1.8rem;
     padding: .25rem .55rem;
     line-height: 1;
 }
 
 .logo img {
-    border-radius: 25%;
+    border-radius: 50%;
     width: 1.8rem;
     height: 1.8rem;
 }
@@ -233,4 +238,45 @@ h2 {
 
 .location {
 
+}
+
+
+/* --------------------------------------------- FOOTER */
+
+.footer-element {
+    text-align: center;
+    vertical-align: center;
+    margin: 20px 0;
+    color: #fafafa;
+}
+
+.footer-element p {
+    font-size: 20px;
+}
+
+.footer-address {
+
+}
+
+.footer-logo {
+}
+
+.footer-logo img {
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+    max-width: 140px;
+    max-height: 140px;
+    
+}
+
+.footer-social {
+
+}
+
+.social-media i {
+    font-size: 25px;
+    color: #fafafa;
+    text-align: center;
+    padding-left: 3px;
 }
