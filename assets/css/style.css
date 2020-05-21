@@ -85,7 +85,7 @@ h2 {
 .btn--red {
     color: #fafafa;
     background-color: #a1323293;
-    border-color: #a13232;
+    border: 2px solid #a13232;
 }
 
 .btn--red:hover,
@@ -93,7 +93,21 @@ h2 {
 .btn--red:focus,
 .btn--red:active:focus {
     background-color: #a13232;
-    border-color: #792626;
+    border: 2px solid #792626;
+}
+
+.btn--white {
+    color: #383838;
+    background-color: #fafafa;
+    border: 2px solid #a13232;
+}
+
+.btn--white:hover,
+.btn--white:active,
+.btn--white:focus,
+.btn--white:active:focus {
+    background-color: #a13232;
+    border: 2px solid #fafafa;
 }
 
 /* --------------------------------------------- CONTENT CONTAINERS */
@@ -233,6 +247,14 @@ h2 {
 .reservation {
 
 }
+
+.reservation-form {
+
+}
+
+.reservation-form label {
+    margin-bottom: .1rem;
+} 
 
 /* --------------------------------------------- SECTION: WHERE TO FIND US */
 

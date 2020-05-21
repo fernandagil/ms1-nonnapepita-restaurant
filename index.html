@@ -145,9 +145,59 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Nesciunt, obcaecati exercitationem.
               </p>
-
               <form>
-                <input type="text" /><input type="submit" value="Book now!" />
+                <div class="form-row reservation-form">
+                  <div class="form-group col-md-6">
+                    <label for="inputname">Name</label>
+                    <input type="date" class="form-control" id="inputname" />
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="inputemail">Email</label>
+                    <input type="email" class="form-control" id="inputemail" />
+                  </div>
+
+                  <div class="form-row">
+                    <div class="form-group col-md-4">
+                      <label for="inputdate">When will you be visiting?</label>
+                      <input type="date" class="form-control" id="inputdate" />
+                    </div>
+                    <div class="form-group col-md-4">
+                      <label for="inputtime">At what time?</label>
+                      <input type="time" class="form-control" id="inputtime" />
+                    </div>
+                    <div class="form-group col-md-4">
+                      <label for="inputpeople">For how many people?</label>
+                      <select class="form-control" id="inputpeople">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="textarea"></label>
+                  </div>
+                  <textarea
+                    class="form-control"
+                    id="textarea"
+                    rows="3"
+                    placeholder="Will you come with kids? Do you have any allergies? What are you celebrating? Let us know and we'll make your visit as pleasant as possible!"
+                  ></textarea>
+                </div>
+                <button
+                  type="submit"
+                  class="btn btn-outline-secondary btn--book btn--white"
+                >
+                  Book now
+                </button>
               </form>
             </section>
           </div>
