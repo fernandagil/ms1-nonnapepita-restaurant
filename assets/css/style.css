@@ -238,8 +238,16 @@ h2 {
 
 .location {
 
+
+}
+.location a {
+    text-decoration: none;
+    color: #383838;
 }
 
+.location a:hover {
+    color: #a13232;
+}
 
 /* --------------------------------------------- FOOTER */
 
@@ -248,14 +256,22 @@ h2 {
     vertical-align: center;
     margin: 20px 0;
     color: #fafafa;
-}
-
-.footer-element p {
     font-size: 20px;
 }
 
-.footer-address {
+.footer-address address {
+    font-size: 80%;
+    line-height: 19px;
+    margin-top: 1.8rem;
+}
 
+.footer-address a {
+    text-decoration: none;
+    color: #fafafa;
+}
+
+.footer-address a:hover {
+    color: #a13232;
 }
 
 .footer-logo {
@@ -271,12 +287,26 @@ h2 {
 }
 
 .footer-social {
-
+    margin-top: 2.2rem;
 }
 
-.social-media i {
-    font-size: 25px;
+.social-media li a i {
     color: #fafafa;
+    background-color: #a13232;
+    font-size: 25px;
+    width: 40px;
+    height: 40px;
+    padding: 12px 0;
+    border-radius: 25%;
+    line-height: 16px;
     text-align: center;
-    padding-left: 3px;
+    transition: all 0.20s ease-in-out;
+    -moz-transition: all 0.20s ease-in-out;
+    -webkit-transition: all 0.20s ease-in-out;
+    -o-transition: all 0.20s ease-in-out;
+}
+
+.social-media li a i:hover {
+    color: #a13232; 
+    background-color: #fafafa;
 }
