@@ -49,24 +49,10 @@
             <ul class="navbar-nav ml-auto">
               <li class="nav-item active">
                 <a class="nav-link" href="#"
-                  >Home <span class="sr-only">(current)</span></a
-                >
+                  >Home <span class="sr-only">(current)</span></a>
               </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                  >Menu???</a
-                >
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Lunch Menu</a>
-                  <a class="dropdown-item" href="#">Dinner Menu</a>
-                </div>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Menu</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">About Us</a>
@@ -92,10 +78,7 @@
               <h1 class="my-4 jumbotron-header">Nonna Pepita</h1>
               <hr class="block-divider" />
               <p class="lead">Best homemade Italian pizza in town!</p>
-
-              <button class="btn btn-outline-secondary btn--book btn--red">
-                Book a table
-              </button>
+              <a href="#" class="btn btn-outline-secondary btn--book btn--red" role="button">Book a table</a>
             </section>
           </div>
         </div>
@@ -108,20 +91,24 @@
         <div class="row">
           <div class="col-12 page-header">
             <section class="history text-center">
-              <h2 class="h2-title">
-                <i class="fas fa-pizza-slice d-none d-sm-block"></i><br />
-                <span>Discover Nonna Pepita </span>
-                <hr class="hr-dotted hr-dotted--red" />
-              </h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Recusandae eum dolores ea quam, dicta harum consequuntur illum
-                accusamus atque, quae, quis dolore reiciendis. Ipsam, aliquam.
-                Nulla accusamus veritatis eligendi odio.
-              </p>
-              <button class="btn btn-sm btn-outline-secondary">
-                Read more
-              </button>
+              <h2 class="h2-title">Discover Nonna Pepita</h2>
+              <hr class="hr-dotted hr-dotted--red" />
+              <div class="row history-section">
+                <div class="col-md-5 history-pic">
+                  <img
+                    src="assets/images/history3.jpg" alt="Mediterranean ingredients"
+                  />
+                </div>
+                <div class="col-md-7 history-text">
+                  <p>
+                    Since 2018, the Mele sisters have been serving the heavenly
+                    flavours of Italian cuisine to the people of Cork. Their
+                    cuisine combines their Grandma’s traditional Italian recipes
+                    and the finest Irish products.
+                  </p>
+                  <a href="#" class="btn btn-sm btn-outline-secondary history-button" role="button">Read more</a>
+                </div>
+              </div>
             </section>
           </div>
         </div>
@@ -230,7 +217,9 @@
                   </div>
 
                   <div class="form-group">
-                    <label for="textarea"></label>
+                    <label for="textarea"
+                      >Would you like to share anything else?</label
+                    >
                   </div>
                   <textarea
                     class="form-control"
