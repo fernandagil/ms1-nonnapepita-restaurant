@@ -2,13 +2,12 @@
 
 
 body {
-    /* background-image: url(../images/bg-image3.jpg); */
+
     background-color: #fafafa;
     margin: 0;
     padding: 0;
     font-family: "Josefin Slab", sans-serif;
     font-size: 1.2rem;
-    /* background: url(assets/images/bg-image1.jpg) center no-repeat; */
     color: #383838;
 }
 
@@ -16,10 +15,6 @@ body {
     margin: 0;
 }
 
-.top-bottom-bg {
-        background: url(../images/header-bg.jpg);
-        z-index: 2;
-}
 
 
 /* --------------------------------------------- HEADINGS */
@@ -47,13 +42,7 @@ h2 {
 /* --------------------------------------------- BLOCK DIVIDERS */
 
 .block-divider {
-    /* border-top: 3px double #fafafa;
-    content: "";
-    display: table-cell;
-    position: relative;
-    top: 0.5em;
-    width: 35%; */
-    width: 50%;
+    width: 40%;
     height: 1px;
     border: 0;
     background-color: #fafafa;
@@ -92,8 +81,8 @@ h2 {
 .btn--red:active,
 .btn--red:focus,
 .btn--red:active:focus {
-    background-color: #a13232;
-    border: 2px solid #792626;
+    background-color: #701515;
+    border: 2px solid #701515;
 }
 
 .btn--white {
@@ -106,8 +95,8 @@ h2 {
 .btn--white:active,
 .btn--white:focus,
 .btn--white:active:focus {
-    background-color: #792626;
-    border: 2px solid #792626;
+    background-color: #701515;
+    border: 2px solid #701515;
 }
 
 .history-button {
@@ -124,7 +113,7 @@ h2 {
 .history-button:active,
 .history-button:focus,
 .history-button:active:focus {
-    background-color: #792626;
+    background-color: #701515;
 }
 
 
@@ -148,8 +137,12 @@ h2 {
 
 /* --------------------------------------------- HEADER */
 .navbar {
-    padding: 1.5%;
+    padding: 0.55rem;
     z-index: 1;
+}
+
+.navbar-color {
+    background-color: #701515;
 }
 
 .page-header {
@@ -167,15 +160,8 @@ h2 {
 /* --------------------------------------------- HEADER: LOGO */
 .logo {
     font-family: "Fredericka the Great", sans-serif;
-    font-size: 1.8rem;
-    padding: .25rem .55rem;
-    line-height: 1;
-}
-
-.logo img {
-    border-radius: 50%;
-    width: 1.8rem;
-    height: 1.8rem;
+    font-size: 2rem;
+    margin-left: 1rem;
 }
 
 /* --------------------------------------------- HEADER: NAVBAR */
@@ -190,15 +176,16 @@ h2 {
 }
 
 .navbar .navbar-toggler {
-    border: 0;
+    margin: 0;
 }
 
 .navbar-nav .nav-link {
     padding: 4px 12px;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     align-items: flex-end;
     font-weight: bold;
     text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 .nav-link {
@@ -278,7 +265,6 @@ h2 {
 }
 
 
-
 /* --------------------------------------------- SECTION: MAKE A RESERVATION */
 
 .reservation {
@@ -309,6 +295,12 @@ h2 {
 }
 
 /* --------------------------------------------- FOOTER */
+
+
+.footer-bg {
+        background: url(../images/header-bg.jpg);
+        z-index: 1;
+}
 
 .footer-element {
     text-align: center;
