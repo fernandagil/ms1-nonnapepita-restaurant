@@ -294,6 +294,21 @@ h2 {
     color: #a13232;
 }
 
+.location-text p {
+    margin: auto 0;
+    padding: 10px;
+}
+
+.location-map iframe {
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    max-height: 250px;
+}
+
+
+
 /* --------------------------------------------- FOOTER */
 
 
