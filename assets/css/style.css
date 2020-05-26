@@ -89,6 +89,7 @@ h2 {
     color: #383838;
     background-color: #fafafa;
     border: 2px solid #a13232;
+    margin-top: 20px;
 }
 
 .btn--white:hover,
@@ -102,7 +103,7 @@ h2 {
 .history-button {
     font-size: 1.1rem;
     font-weight: bold;
-    border-radius: 3px;
+    border-radius: 10px;
     width: 140px;
     line-height: 2;
     color: #fafafa;
@@ -197,8 +198,7 @@ h2 {
 
 .callout-container {
     height: 100vh;
-
-    background: url(../images/blackboard4.jpg) no-repeat center center fixed; 
+    background: url(../images/blackboard4.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -375,4 +375,10 @@ h2 {
 .social-media li a i:hover {
     color: #a13232; 
     background-color: #fafafa;
+}
+
+/* --------------------------------------------- ABOUT US PAGE */
+
+.callout-container-bg-about {
+    background: url(../images/about-us2.jpg) no-repeat center center fixed;
 }
