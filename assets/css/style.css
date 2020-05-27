@@ -239,7 +239,8 @@ h2 {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0),0,0,0.5);
+    background-color: rgba(0,0,0,0.5);
+    z-index: 1;
 }
 
 /* --------------------------------------------- SECTION: HISTORY */
@@ -267,8 +268,8 @@ h2 {
 
 /* --------------------------------------------- SECTION: MAKE A RESERVATION */
 
-.reservation {
-
+.reservation p {
+    margin: 20px 0 40px 0;
 }
 
 .reservation-form {
@@ -278,6 +279,11 @@ h2 {
 .reservation-form label {
     margin-bottom: .1rem;
 } 
+
+.text-area {
+    margin-bottom: 1.6px;
+}
+
 
 /* --------------------------------------------- SECTION: WHERE TO FIND US */
 
@@ -377,8 +383,44 @@ h2 {
     background-color: #fafafa;
 }
 
+/* --------------------------------------------- PAGE HEADERS */
+
+.page-heading {
+    height: 50vh;
+    padding: 100px 0;
+}
+
+.page-heading-about {
+    background: url(../images/about-us2.jpg) no-repeat center center fixed;
+}
+
+.about-heading h1 {
+    font-family: "Fredericka the Great", sans-serif;
+    font-size: 4rem;
+    color: #fafafa;
+}
+
+.opaque-overlay-headers {
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 1;
+}
+
 /* --------------------------------------------- ABOUT US PAGE */
 
-.callout-container-bg-about {
-    background: url(../images/about-us2.jpg) no-repeat center center fixed;
+.introduction {
+    padding-top: 50px;
+}
+
+.family-member img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.family-member h4 {
+    padding-top: 40px;
 }
