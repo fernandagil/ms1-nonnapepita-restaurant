@@ -7,7 +7,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Josefin Slab", sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.05rem;
     color: #383838;
 }
 
@@ -95,7 +95,7 @@ h2 {
 .btn--white:hover,
 .btn--white:active,
 .btn--white:focus,
-.btn--white:active:focus {
+.btn--white:active:focus{
     background-color: #701515;
     border: 2px solid #701515;
 }
@@ -394,10 +394,14 @@ h2 {
     background: url(../images/about-us2.jpg) no-repeat center center fixed;
 }
 
-.about-heading h1 {
+.page-title {
     font-family: "Fredericka the Great", sans-serif;
     font-size: 4rem;
     color: #fafafa;
+}
+
+.page-heading-menu {
+    background: url(../images/about-us1.jpg) no-repeat center center fixed;
 }
 
 .opaque-overlay-headers {
@@ -423,4 +427,45 @@ h2 {
 
 .family-member h4 {
     padding-top: 40px;
+}
+
+/* --------------------------------------------- MENU PAGE */
+
+.menu-container {
+    color: #fafafa;
+    font-size: 0.85rem;
+}
+
+.menu-container-bg {
+    background: url(../images/blackboard2.jpg);
+    width: 100%;
+    height: 100%;
+}
+
+.menu-area-title {
+    margin: 30px 0;
+    font-size: 2.5rem;
+}
+
+.menu-item {
+    margin: 10px 0;
+}
+
+.menu-item h5 {
+    text-transform: uppercase;
+    font-weight: bold
+}
+
+.item-price {
+    font-size: 0.6rem;
+    font-weight: normal;
+}
+
+.item-specification {
+    background-color: #701515;
+    border-radius: 50%;
+    border: 1px solid #701515;
+    padding: 4px;
+    font-size: 0.6rem;
+    font-weight: bold;
 }
