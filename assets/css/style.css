@@ -1,51 +1,43 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Josefin+Slab&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Josefin+Slab&display=swap");
 
 body {
-
-    background-color: #fafafa;
-    margin: 0;
-    padding: 0;
-    font-family: "Josefin Slab", sans-serif;
-    font-size: 1.05rem;
-    color: #383838;
+  background-color: #fafafa;
+  margin: 0;
+  padding: 0;
+  font-family: "Josefin Slab", sans-serif;
+  font-size: 1.05rem;
+  color: #383838;
 }
 
 .row {
-    margin: 0;
+  margin: 0;
 }
-
-
 
 /* --------------------------------------------- HEADINGS */
 
 h1 {
-
 }
 
 h2 {
-    font-family: "Fredericka the Great", sans-serif;
-    font-size: 2.3rem;
+  font-family: "Fredericka the Great", sans-serif;
+  font-size: 2.3rem;
 }
 
 .h2-title {
-
 }
 
 .h2-title i {
-    margin-bottom: 0px;
-    line-height: 30px;
+  margin-bottom: 0px;
+  line-height: 30px;
 }
-
-
 
 /* --------------------------------------------- BLOCK DIVIDERS */
 
 .block-divider {
-    width: 40%;
-    height: 1px;
-    border: 0;
-    background-color: #fafafa;
+  width: 40%;
+  height: 1px;
+  border: 0;
+  background-color: #fafafa;
 }
 
 .hr-dotted {
@@ -54,418 +46,427 @@ h2 {
 }
 
 .hr-dotted--red {
-    color: #a13232;
+  color: #a13232;
 }
 
 .hr-dotted--white {
-    color: #fafafa;
+  color: #fafafa;
+}
+
+.hr-extras {
+  width: 150px;
+  height: 1px;
+  border: 0;
+  background-color: #fafafa;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 /* --------------------------------------------- BUTTONS */
 
 .btn--book {
-    font-weight: bold;
-    border-radius: 12px;
-    width: 180px;
-    text-transform: uppercase;
-    line-height: 2.5;
+  font-weight: bold;
+  border-radius: 12px;
+  width: 180px;
+  text-transform: uppercase;
+  line-height: 2.5;
 }
 
 .btn--red {
-    color: #fafafa;
-    background-color: #a1323293;
-    border: 2px solid #a13232;
+  color: #fafafa;
+  background-color: #a1323293;
+  border: 2px solid #a13232;
 }
 
 .btn--red:hover,
 .btn--red:active,
 .btn--red:focus,
 .btn--red:active:focus {
-    background-color: #701515;
-    border: 2px solid #701515;
+  background-color: #701515;
+  border: 2px solid #701515;
 }
 
 .btn--white {
-    color: #383838;
-    background-color: #fafafa;
-    border: 2px solid #a13232;
-    margin-top: 20px;
+  color: #383838;
+  background-color: #fafafa;
+  border: 2px solid #a13232;
+  margin-top: 20px;
 }
 
 .btn--white:hover,
 .btn--white:active,
 .btn--white:focus,
-.btn--white:active:focus{
-    background-color: #701515;
-    border: 2px solid #701515;
+.btn--white:active:focus {
+  background-color: #701515;
+  border: 2px solid #701515;
 }
 
 .history-button {
-    font-size: 1.1rem;
-    font-weight: bold;
-    border-radius: 10px;
-    width: 140px;
-    line-height: 2;
-    color: #fafafa;
-    background-color: #a13232;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-radius: 10px;
+  width: 140px;
+  line-height: 2;
+  color: #fafafa;
+  background-color: #a13232;
 }
 
 .history-button:hover,
 .history-button:active,
 .history-button:focus,
 .history-button:active:focus {
-    background-color: #701515;
+  background-color: #701515;
 }
-
-
 
 /* --------------------------------------------- CONTENT CONTAINERS */
 
 .content-container {
-    padding-top: 75px;
-    padding-bottom: 75px;
+  padding-top: 75px;
+  padding-bottom: 75px;
 }
 
 .container-wrapper {
-    
 }
 
 .container-wrapper--reservation {
-    background-color: #a13232;
-    color: #fafafa;
+  background-color: #a13232;
+  color: #fafafa;
 }
-
 
 /* --------------------------------------------- HEADER */
 .navbar {
-    padding: 0.55rem;
-    z-index: 1;
+  padding: 0.55rem;
+  z-index: 1;
 }
 
 .navbar-color {
-    background-color: #701515;
+  background-color: #701515;
 }
 
 .page-header {
-    margin-bottom: 0;
-    border-bottom: 0;
-    text-align: center;
+  margin-bottom: 0;
+  border-bottom: 0;
+  text-align: center;
 }
 
 .page-header h2 {
-    margin-top: 0;
+  margin-top: 0;
 }
-
-
 
 /* --------------------------------------------- HEADER: LOGO */
 .logo {
-    font-family: "Fredericka the Great", sans-serif;
-    font-size: 2rem;
-    margin-left: 1rem;
+  font-family: "Fredericka the Great", sans-serif;
+  font-size: 2rem;
+  margin-left: 1rem;
 }
 
 /* --------------------------------------------- HEADER: NAVBAR */
 .navbar-toggler {
-    color: #fafafa;
-    padding: .25rem .55rem;
-    font-size: 1rem;
-    line-height: 1;
-    background-color: transparent;
-    border: 3px dotted #fafafa;
-    border-radius: .3rem;
+  color: #fafafa;
+  padding: 0.25rem 0.55rem;
+  font-size: 1rem;
+  line-height: 1;
+  background-color: transparent;
+  border: 3px dotted #fafafa;
+  border-radius: 0.3rem;
 }
 
 .navbar .navbar-toggler {
-    margin: 0;
+  margin: 0;
 }
 
 .navbar-nav .nav-link {
-    padding: 4px 12px;
-    font-size: 1.1rem;
-    align-items: flex-end;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+  padding: 4px 12px;
+  font-size: 1.1rem;
+  align-items: flex-end;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 .nav-link {
-    padding-right: 7%;
+  padding-right: 7%;
 }
-
 
 /* --------------------------------------------- SECTION: CALLOUT */
 
 .callout-container {
-    height: 100vh;
-    background: url(../images/blackboard4.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
+  height: 100vh;
+  background: url(../images/home-bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
 
 .jumbotron {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 .jumbotron-header {
-    color: #fafafa;
-    font-size: 4rem;
-    margin-bottom: 30px;
-    font-family: "Fredericka the Great", sans-serif;
+  color: #fafafa;
+  font-size: 4rem;
+  margin-bottom: 30px;
+  font-family: "Fredericka the Great", sans-serif;
 }
 
 .jumbotron p {
-    font-size: 1.7rem;
-    color: #fafafa;
-    margin-top: 2rem;
+  font-size: 1.7rem;
+  color: #fafafa;
+  margin-top: 2rem;
 }
 
 .welcome {
-    font-size: 2rem;
-    font-family: "Josefin Slab", sans-serif;
+  font-size: 2rem;
+  font-family: "Josefin Slab", sans-serif;
 }
 
 .opaque-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0,0,0,0.5);
-    z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
 }
 
 /* --------------------------------------------- SECTION: HISTORY */
 
 .history {
-
 }
 
 .history-section {
-    vertical-align: middle;
-
+  vertical-align: middle;
 }
 
 .history-pic img {
-    width: 100%;
-    margin-top: 10px;
-    border-radius: 10px;
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 10px;
 }
 
 .history-text {
-    margin: auto 0;
-    padding: 10px;
+  margin: auto 0;
+  padding: 10px;
 }
-
 
 /* --------------------------------------------- SECTION: MAKE A RESERVATION */
 
 .reservation p {
-    margin: 20px 0 40px 0;
+  margin: 20px 0 40px 0;
 }
 
 .reservation-form {
-
 }
 
 .reservation-form label {
-    margin-bottom: .1rem;
-} 
-
-.text-area {
-    margin-bottom: 1.6px;
+  margin-bottom: 0.1rem;
 }
 
+.text-area {
+  margin-bottom: 1.6px;
+}
 
 /* --------------------------------------------- SECTION: WHERE TO FIND US */
 
 .location {
-
-
 }
 .location a {
-    text-decoration: none;
-    color: #383838;
+  text-decoration: none;
+  color: #383838;
 }
 
 .location a:hover {
-    color: #a13232;
+  color: #a13232;
 }
 
 .location-text p {
-    margin: auto 0;
-    padding: 10px;
+  margin: auto 0;
+  padding: 10px;
 }
 
 .location-map iframe {
-    margin-top: 10px;
-    border-radius: 10px;
-    width: 100%;
-    height: auto;
-    max-height: 250px;
+  margin-top: 10px;
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+  max-height: 250px;
 }
-
-
 
 /* --------------------------------------------- FOOTER */
 
-
 .footer-bg {
-        background: url(../images/header-bg.jpg);
-        z-index: 1;
+  background: url(../images/miniblackboard.jpg);
+  z-index: 1;
 }
 
 .footer-element {
-    text-align: center;
-    vertical-align: center;
-    margin: 20px 0;
-    color: #fafafa;
-    font-size: 20px;
+  text-align: center;
+  vertical-align: center;
+  margin: 20px 0;
+  color: #fafafa;
+  font-size: 20px;
 }
 
 .footer-address address {
-    font-size: 80%;
-    line-height: 19px;
-    margin-top: 1.8rem;
+  font-size: 80%;
+  line-height: 19px;
+  margin-top: 1.8rem;
 }
 
 .footer-address a {
-    text-decoration: none;
-    color: #fafafa;
+  text-decoration: none;
+  color: #fafafa;
 }
 
 .footer-address a:hover {
-    color: #a13232;
+  color: #a13232;
 }
 
 .footer-logo {
 }
 
 .footer-logo img {
-    border-radius: 50%;
-    width: 100%;
-    height: auto;
-    max-width: 140px;
-    max-height: 140px;
-    
+  border-radius: 50%;
+  width: 100%;
+  height: auto;
+  max-width: 140px;
+  max-height: 140px;
 }
 
 .footer-social {
-    margin-top: 2.2rem;
+  margin-top: 2.2rem;
 }
 
 .social-media li a i {
-    color: #fafafa;
-    background-color: #a13232;
-    font-size: 25px;
-    width: 40px;
-    height: 40px;
-    padding: 12px 0;
-    border-radius: 25%;
-    line-height: 16px;
-    text-align: center;
-    transition: all 0.20s ease-in-out;
-    -moz-transition: all 0.20s ease-in-out;
-    -webkit-transition: all 0.20s ease-in-out;
-    -o-transition: all 0.20s ease-in-out;
+  color: #fafafa;
+  background-color: #a13232;
+  font-size: 25px;
+  width: 40px;
+  height: 40px;
+  padding: 12px 0;
+  border-radius: 25%;
+  line-height: 16px;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
 }
 
 .social-media li a i:hover {
-    color: #a13232; 
-    background-color: #fafafa;
+  color: #a13232;
+  background-color: #fafafa;
 }
 
 /* --------------------------------------------- PAGE HEADERS */
 
 .page-heading {
-    height: 50vh;
-    padding: 100px 0;
+  height: 50vh;
+  max-width: 100%;
+  padding: 100px 0;
 }
 
 .page-heading-about {
-    background: url(../images/about-us2.jpg) no-repeat center center fixed;
+  background: url(../images/about-us-bg.jpg) no-repeat center center fixed;
 }
 
 .page-title {
-    font-family: "Fredericka the Great", sans-serif;
-    font-size: 4rem;
-    color: #fafafa;
+  font-family: "Fredericka the Great", sans-serif;
+  font-size: 4rem;
+  color: #fafafa;
 }
 
 .page-heading-menu {
-    background: url(../images/about-us1.jpg) no-repeat center center fixed;
+  background: url(../images/menu-bg.jpg) no-repeat center center fixed;
 }
 
-.opaque-overlay-headers {
-    position: absolute;
-    height: 50%;
-    width: 50%;
-    background-color: rgba(0,0,0,0.5);
-    z-index: 1;
+.page-heading-contact {
+    background: url(../images/contact-bg.jpg) no-repeat center center fixed;
 }
+
+
 
 /* --------------------------------------------- ABOUT US PAGE */
 
 .introduction {
-    padding-top: 50px;
+  padding-top: 50px;
 }
 
 .family-member img {
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-    object-fit: cover;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 .family-member h4 {
-    padding-top: 40px;
+  padding-top: 40px;
 }
 
 /* --------------------------------------------- MENU PAGE */
 
 .menu-container {
-    color: #fafafa;
-    font-size: 0.85rem;
+  color: #fafafa;
+  font-size: 0.85rem;
 }
 
 .menu-container-bg {
-    background: url(../images/blackboard2.jpg);
-    width: 100%;
-    height: 100%;
+  background: url(../images/blackboard.jpg);
+  width: 100%;
+  height: 100%;
 }
 
 .menu-area-title {
-    margin: 30px 0;
-    font-size: 2.5rem;
+  margin: 30px 0;
+  font-size: 2.5rem;
 }
 
 .menu-item {
-    margin: 10px 0;
+  margin: 10px 0;
 }
 
 .menu-item h5 {
-    text-transform: uppercase;
-    font-weight: bold
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .item-price {
-    font-size: 0.6rem;
-    font-weight: normal;
+  font-size: 0.6rem;
+  font-weight: normal;
 }
 
 .item-specification {
-    background-color: #701515;
-    border-radius: 50%;
-    border: 1px solid #701515;
-    padding: 4px;
-    font-size: 0.6rem;
-    font-weight: bold;
+  background-color: #701515;
+  border-radius: 50%;
+  border: 1px solid #701515;
+  padding: 4px;
+  font-size: 0.6rem;
+  font-weight: bold;
+}
+
+.insalate-extras, .pizze-extras {
+    margin-bottom: 20px;
+}
+
+.insalate-extras, .pizze-extras p {
+  margin: 5px 20px;
+}
+
+
+/* --------------------------------------------- CONTACT PAGE */
+
+.contact-container {
+    background-color: #a13232;
+    color: #fafafa;
+}
+
+.contact-form {
+    padding-top: 30px;
 }
