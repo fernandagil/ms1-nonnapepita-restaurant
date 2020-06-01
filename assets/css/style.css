@@ -273,6 +273,10 @@ h2 {
   margin-bottom: 1.6px;
 }
 
+.h2-title i {
+    margin-bottom: 20px;
+}
+
 /* --------------------------------------------- SECTION: WHERE TO FIND US */
 
 .location {
@@ -468,4 +472,16 @@ h2 {
 
 .contact-form {
     padding-top: 30px;
+}
+
+.reservation-link {
+    color: #fafafa;
+    margin-top: 40px;
+    font-size: 1.4rem;
+}
+
+.reservation-link a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #fafafa;
 }
