@@ -274,7 +274,7 @@ h2 {
 }
 
 .h2-title i {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 /* --------------------------------------------- SECTION: WHERE TO FIND US */
@@ -391,10 +391,8 @@ h2 {
 }
 
 .page-heading-contact {
-    background: url(../images/contact-bg.jpg) no-repeat center center fixed;
+  background: url(../images/contact-bg.jpg) no-repeat center center fixed;
 }
-
-
 
 /* --------------------------------------------- ABOUT US PAGE */
 
@@ -454,34 +452,42 @@ h2 {
   font-weight: bold;
 }
 
-.insalate-extras, .pizze-extras {
-    margin-bottom: 20px;
+.insalate-extras,
+.pizze-extras {
+  margin-bottom: 20px;
 }
 
-.insalate-extras, .pizze-extras p {
+.insalate-extras,
+.pizze-extras p {
   margin: 5px 20px;
 }
-
 
 /* --------------------------------------------- CONTACT PAGE */
 
 .contact-container {
-    background-color: #a13232;
-    color: #fafafa;
+  background-color: #a13232;
+  color: #fafafa;
 }
 
 .contact-form {
-    padding-top: 30px;
+  padding-top: 30px;
 }
 
 .reservation-link {
-    color: #fafafa;
-    margin-top: 40px;
-    font-size: 1.4rem;
+  color: #fafafa;
+  margin-top: 40px;
+  font-size: 1.4rem;
 }
 
 .reservation-link a {
-    text-decoration: none;
-    font-weight: bold;
-    color: #fafafa;
+  text-decoration: none;
+  font-weight: bold;
+  color: #fafafa;
+}
+
+.location-map-contact iframe {
+  margin: 0;
+  width: 100%;
+  height: auto;
+  max-height: 450px;
 }
