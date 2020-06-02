@@ -15,15 +15,9 @@ body {
 
 /* --------------------------------------------- HEADINGS */
 
-h1 {
-}
-
 h2 {
   font-family: "Fredericka the Great", sans-serif;
   font-size: 2.3rem;
-}
-
-.h2-title {
 }
 
 .h2-title i {
@@ -125,15 +119,13 @@ h2 {
   padding-bottom: 75px;
 }
 
-.container-wrapper {
-}
-
 .container-wrapper--reservation {
   background-color: #a13232;
   color: #fafafa;
 }
 
 /* --------------------------------------------- HEADER */
+
 .navbar {
   padding: 0.55rem;
   z-index: 1;
@@ -154,6 +146,7 @@ h2 {
 }
 
 /* --------------------------------------------- HEADER: LOGO */
+
 .logo {
   font-family: "Fredericka the Great", sans-serif;
   font-size: 2rem;
@@ -161,6 +154,7 @@ h2 {
 }
 
 /* --------------------------------------------- HEADER: NAVBAR */
+
 .navbar-toggler {
   color: #fafafa;
   padding: 0.25rem 0.55rem;
@@ -197,7 +191,6 @@ h2 {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -238,9 +231,6 @@ h2 {
 
 /* --------------------------------------------- SECTION: HISTORY */
 
-.history {
-}
-
 .history-section {
   vertical-align: middle;
 }
@@ -262,9 +252,6 @@ h2 {
   margin: 20px 0 40px 0;
 }
 
-.reservation-form {
-}
-
 .reservation-form label {
   margin-bottom: 0.1rem;
 }
@@ -279,8 +266,6 @@ h2 {
 
 /* --------------------------------------------- SECTION: WHERE TO FIND US */
 
-.location {
-}
 .location a {
   text-decoration: none;
   color: #383838;
@@ -298,9 +283,9 @@ h2 {
 .location-map iframe {
   margin-top: 10px;
   border-radius: 10px;
+  border-style: none;
   width: 100%;
-  height: auto;
-  max-height: 250px;
+  height: 300px;
 }
 
 /* --------------------------------------------- FOOTER */
@@ -331,9 +316,6 @@ h2 {
 
 .footer-address a:hover {
   color: #a13232;
-}
-
-.footer-logo {
 }
 
 .footer-logo img {
@@ -373,17 +355,12 @@ h2 {
 
 .page-heading {
   height: 50vh;
-  padding: 100px 0;
+  margin: 0;
+  padding: 100px 0; 
 }
 
 .page-heading-about {
   background: url(../images/about-us-bg.jpg) no-repeat center center fixed;
-}
-
-.page-title {
-  font-family: "Fredericka the Great", sans-serif;
-  font-size: 4rem;
-  color: #fafafa;
 }
 
 .page-heading-menu {
@@ -392,6 +369,12 @@ h2 {
 
 .page-heading-contact {
   background: url(../images/contact-bg.jpg) no-repeat center center fixed;
+}
+
+.page-title {
+  font-family: "Fredericka the Great", sans-serif;
+  font-size: 4rem;
+  color: #fafafa;
 }
 
 /* --------------------------------------------- ABOUT US PAGE */
@@ -486,8 +469,9 @@ h2 {
 }
 
 .location-map-contact iframe {
-  margin: 0;
+  margin-top: 30px;
+  border-radius: 10px;
+  border-style: none;
   width: 100%;
-  height: auto;
-  max-height: 450px;
+  height: 300px;
 }
