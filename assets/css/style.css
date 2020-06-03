@@ -128,7 +128,7 @@ h2 {
 
 .navbar {
   padding: 0.55rem;
-  z-index: 1;
+  z-index: 3;
 }
 
 .navbar-color {
@@ -225,7 +225,7 @@ h2 {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.4);
   z-index: 1;
 }
 
