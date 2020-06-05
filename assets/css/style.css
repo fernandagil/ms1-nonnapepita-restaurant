@@ -5,7 +5,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Josefin Slab", sans-serif;
-  font-size: 1.05rem;
+  font-size: 1.2rem;
   color: #383838;
 }
 
@@ -361,14 +361,17 @@ h2 {
 
 .page-heading-about {
   background: url(../images/about-us-bg.jpg) no-repeat center center fixed;
+  background-size: cover;
 }
 
 .page-heading-menu {
   background: url(../images/menu-bg.jpg) no-repeat center center fixed;
+  background-size: cover;
 }
 
 .page-heading-contact {
   background: url(../images/contact-bg.jpg) no-repeat center center fixed;
+  background-size: cover;
 }
 
 .page-title {
