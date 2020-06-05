@@ -28,10 +28,14 @@ h2 {
 /* --------------------------------------------- BLOCK DIVIDERS */
 
 .block-divider {
-  width: 40%;
+  width: 9rem;
   height: 1px;
-  border: 0;
   background-color: #fafafa;
+}
+
+.hr-callout {
+    margin-top: 25px;
+    margin-bottom: 35px;
 }
 
 .hr-dotted {
@@ -71,6 +75,7 @@ h2 {
   width: 180px;
   text-transform: uppercase;
   line-height: 2.5;
+  margin-top: 10px;
 }
 
 .btn--red {
@@ -204,9 +209,19 @@ h2 {
   position: relative;
 }
 
+#jumbotron-container {
+    height: 100%;
+    padding-top: 100px;
+} 
+
+@media screen and (max-width: 768px) {
+   #jumbotron-container {
+      padding-top: 3rem;
+   }
+}
+
 .jumbotron {
   background-color: transparent;
-  height: 100%;
 }
 
 .jumbotron-header {
