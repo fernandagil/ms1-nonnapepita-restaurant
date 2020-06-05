@@ -355,8 +355,8 @@ h2 {
 
 .page-heading {
   height: 50vh;
-  margin: 0;
-  padding: 100px 0; 
+  padding: 100px 0;
+  background-size: cover;
 }
 
 .page-heading-about {
@@ -379,9 +379,23 @@ h2 {
 
 /* --------------------------------------------- ABOUT US PAGE */
 
+.about-title h3 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 30px 0;
+}
+
 .introduction {
   padding-top: 50px;
 }
+
+.family-text {
+    background-color: #a13232;
+    color: #fafafa;
+    padding: 30px;
+    border: 25px;
+}
+
 
 .family-member img {
   height: 200px;

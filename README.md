@@ -1,39 +1,98 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# Nonna Pepita
 
-Welcome fernandagil,
+Nonna Pepita is a fictional Italian restaurant founded by two Italian sisters who decided to open a restaurant in Cork’s busy city center. They decided to create a fusion cuisine restaurant where they would combine fresh Irish products and imported Italian goods, using their Grandma’s old recipes. 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+You can visit the deployed website [here](https://fernandagil.github.io/ms1-nonnapepita/)
 
-## Gitpod Reminders
+--- 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## 1. UX
 
-`python3 -m http.server`
+#### 1.1. Project Goals
 
-A blue button should appear to click: *Make Public*,
+This website was designed for the restaurant’s owner, so they can build or improve their online brand and get a wider range of customers and build loyalty. The ultimate aim of this would be to increase the sales, which we could achieve through more bookings and orders, for what we have added a call to action button to book a table in some very visible places.
 
-Another blue button should appear to click: *Open Browser*.
+This website was also designed for the public, regular and potential clients, so they can check out the menu online, find out the restaurant’s exact location or make a reservation. They would also be able to contact the restaurant for what we have added the contact details in every page of the project.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+#### 1.2. User Stories
 
-A blue button should appear to click: *Make Public*,
+* As an owner, I want to show off what we can do to attract more clients. 
+* As an owner, I want to offer the possibility to book online to avoid unnecessary calls during busy hours.
+* As an owner, I want my webpage to be easy recognisable through the icon in the tab and also through the name on the fixed navbar while the customers are navigating through the site.
+* As a user, I want to be able to get in touch with the restaurant for any reason.
+* As a user, I want to be able to check the opening hours and to see the restaurant's location.
+* As a curious user, I want to know more about the owner's stories.
+* As a person with an allergy, I want to be able to check out the menu in advance to see if this place is a good option for me.
+* As a person celebrating a special occasion, I want to be able to book a table in advance so nothing goes wrong. 
+* As a regular customer, I want to check out the menu before my next visit so I can check out if there are any new dishes.
+* As a potential client, I would like to see the the menu and compare it to other places regarding ingredients, prices, etc.
 
-Another blue button should appear to click: *Open Browser*.
+--- 
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+## 2. Features
 
-## Updates Since The Instructional Video
+**The Header** includes:
+* **Restaurant's name**: allows users to know where they are every moment.
+* **Navigation Bar**: allows users to navigate the site in an easy and intuitive way. 
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+**The Footer** includes:
+* **Contact Details**: includes Phone Number and Email Address and it allows users to contact the restaurant if they have any enquiry.
+* **Logo**: allows users to easily recognise the business’ identity and it separates it instantly from competition. 
+* **Social**: allows users to know more about the restaurant and to read other people’s reviews. These are all links to the main pages since this is a fictional restaurant. 
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+Both the Header and the Footer are consistent throughout the website.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+**Home Page** includes: 
+* **Call to action button**: allows users to make a reservation as soon as they enter the site
+* **Discover Nonna Pepita**: allows users to know more about the restaurant's culture and includes a button leading to About us page where they can get more information if they wish.
+* **Reservation form**: allows users to book a table. They’ll submit details such as day, time, number of persons or allergies they might have.
+* **Location**: allows users to know the business' contact details and opening hours, it also includes an embbed Google Maps so it's easier for users to know where the restaurant is located 
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+**Menu Page** includes: 
+* **Restaurant's menu**: a description of the dishes that are on the menu at the moment. It includes the prices and the ingredients so users with an allergy can see if they can eat them.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+**About us Page** includes: 
+* **Short restaurant's story**: allows the users to get to know the restaurant's philosophy a bit better.
+* **Owners's short biography**: explains the story behind the sisters and their grandmother and their experience in cooking.
 
---------
+**Contact Page** includes: 
+* **Contact form**: allows users to contact the restaurant.
+* **Link to _Reservation_**: allows users that want to book a table instead to contact the restaurant to go back to the Reservation section.
+* **Map**: allows users to know where the restaurant is located.
 
-Happy coding!
+**Favicon**: allows the user to identify the site by just seeing the icon on the tab.
+
+--- 
+
+## 3. Technologies used
+
+* [HTML5](https://en.wikipedia.org/wiki/HTML5) - provides the content and structure for my website.
+* [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) - provides the styling.
+* [Bootstrap](https://getbootstrap.com/) - used to create the layout of the project.
+* [Google Fonts](https://fonts.google.com/) - used to provide the fonts Josefin Slab for the main text, and Fredericka the Great for headers.
+* [Font Awesome](https://fontawesome.com/) - used the font awesome icons to style the information and the links in the footer, and also for the Reservation section.
+* [Canva](https://www.canva.com/) - used to design the restaurant's logo and icon.
+* [Favicon](https://www.favicon-generator.org//) - used to create the icon from the design made with Canva.
+* [Pixabay](https://pixabay.com/) and [Freepik](https://www.freepik.es/) - used to get images for the project.
+* [Pixabay](https://pixabay.com/) - used to compress the size of the images.
+* [Balsamiq](https://fonts.google.com/) - used to create the project's wireframes.
+* [Gitpod](https://gitpod.io/) - used to develop the website.
+* [GitHub](https://github.com/) - used to host the project.
+
+
+## 4. Testing
+
+--- 
+
+## 5. Deployment
+
+--- 
+
+## 6. Credits
+
+### 6.1. Content
+
+### 6.2. Media
+
+### 6.1. Acknowledgments
+
