@@ -35,8 +35,9 @@ h2 {
 }
 
 .hr-dotted {
-  border-top: 3px dotted;
-  width: 50%;
+  border-top: 2px dotted;
+  width: 40%;
+  padding-bottom: 20px;
 }
 
 .hr-dotted--red {
@@ -50,12 +51,18 @@ h2 {
 .hr-extras {
   width: 150px;
   height: 1px;
-  border: 0;
   background-color: #fafafa;
   margin-bottom: 10px;
   margin-top: 10px;
 }
 
+.hr-about {
+  border-top: 2px dotted;
+  width: 130px;
+}
+.hr-about-top, .hr-about-bottom {
+    padding-bottom: 2px;
+}
 /* --------------------------------------------- BUTTONS */
 
 .btn--book {
@@ -199,6 +206,7 @@ h2 {
 
 .jumbotron {
   background-color: transparent;
+  height: 100%;
 }
 
 .jumbotron-header {
@@ -354,7 +362,7 @@ h2 {
 /* --------------------------------------------- PAGE HEADERS */
 
 .page-heading {
-  height: 50vh;
+  height: 60vh;
   padding: 100px 0;
   background-size: cover;
 }
@@ -382,6 +390,11 @@ h2 {
 
 /* --------------------------------------------- ABOUT US PAGE */
 
+.about-container {
+  background-color: #a13232;
+  color: #fafafa;
+}
+
 .about-title h3 {
     font-size: 3rem;
     text-align: center;
@@ -392,13 +405,13 @@ h2 {
   padding-top: 50px;
 }
 
-.family-text {
-    background-color: #a13232;
-    color: #fafafa;
-    padding: 30px;
-    border: 25px;
+.introduction-text p {
+    margin: 40px auto;
 }
 
+.family-member {
+    margin-bottom: 35px;
+}
 
 .family-member img {
   height: 200px;
@@ -409,6 +422,9 @@ h2 {
 
 .family-member h4 {
   padding-top: 40px;
+  padding-bottom: 20px;
+  font-family: "Fredericka the Great", sans-serif;
+  font-size: 2rem;
 }
 
 /* --------------------------------------------- MENU PAGE */
