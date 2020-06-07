@@ -40,7 +40,7 @@ h2 {
 
 .hr-dotted {
   border-top: 2px dotted;
-  width: 40%;
+  width: 90%;
   padding-bottom: 20px;
   height: 5px;
 }
@@ -142,7 +142,7 @@ h2 {
 
 .navbar {
   padding: 0.55rem;
-  z-index: 3;
+  z-index: 5;
 }
 
 .navbar-color {
@@ -213,7 +213,7 @@ h2 {
 
 #jumbotron-container {
     height: 100%;
-    padding-top: 150px;
+    padding-top: 160px;
 } 
 
 @media screen and (max-width: 767px) {
@@ -384,13 +384,13 @@ h2 {
   background-size: cover;
 }
 
-.page-heading-about {
-  background: url(../images/about-us-bg.jpg) no-repeat center center fixed;
+.page-heading-menu {
+  background: url(../images/menu-bg.jpg) no-repeat center center fixed;
   background-size: cover;
 }
 
-.page-heading-menu {
-  background: url(../images/menu-bg.jpg) no-repeat center center fixed;
+.page-heading-about {
+  background: url(../images/about-us-bg.jpg) no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -401,8 +401,29 @@ h2 {
 
 .page-title {
   font-family: "Fredericka the Great", sans-serif;
-  font-size: 4rem;
+  font-size: 4.5rem;
   color: #fafafa;
+}
+
+.opaque-overlay-heading {
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 60vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 2;
+  padding: 100px 0;
+}
+
+#heading-container {
+    height: 100%;
+    padding-top: 80px;
+}
+
+@media screen and (max-width: 767px) {
+   #heading-container {
+      padding-top: 3rem;
+   }
 }
 
 /* --------------------------------------------- ABOUT US PAGE */
