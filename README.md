@@ -1,10 +1,10 @@
 # Nonna Pepita
 
-Nonna Pepita is a fictional Italian restaurant founded by two Italian sisters who decided to open a restaurant in Cork’s busy city center. They decided to create a fusion cuisine restaurant where they would combine fresh Irish products and imported Italian goods, using their Grandma’s old recipes. 
+Nonna Pepita is a fictional Italian restaurant founded by two Italian sisters who decided to open a restaurant in Cork’s busy city center. They decided to create a fusion cuisine restaurant where they would combine fresh Irish products and imported Italian goods, using their Grandma’s old recipes.
 
-You can visit the deployed website [here](https://fernandagil.github.io/ms1-nonnapepita/)
+You can visit the deployed website [here](https://fernandagil.github.io/ms1-nonnapepita/).
 
---- 
+---
 
 ## 1. UX
 
@@ -16,83 +16,110 @@ This website was also designed for the public, regular and potential clients, so
 
 #### 1.2. User Stories
 
-* As an owner, I want to show off what we can do to attract more clients. 
-* As an owner, I want to offer the possibility to book online to avoid unnecessary calls during busy hours.
-* As an owner, I want my webpage to be easy recognisable through the icon in the tab and also through the name on the fixed navbar while the customers are navigating through the site.
-* As a user, I want to be able to get in touch with the restaurant for any reason.
-* As a user, I want to be able to check the opening hours and to see the restaurant's location.
-* As a curious user, I want to know more about the owner's stories.
-* As a person with an allergy, I want to be able to check out the menu in advance to see if this place is a good option for me.
-* As a person celebrating a special occasion, I want to be able to book a table in advance so nothing goes wrong. 
-* As a regular customer, I want to check out the menu before my next visit so I can check out if there are any new dishes.
-* As a potential client, I would like to see the the menu and compare it to other places regarding ingredients, prices, etc.
+- As an owner, I want to show off what we can do to attract more clients.
+- As an owner, I want to offer the possibility to book online to avoid unnecessary calls during busy hours.
+- As an owner, I want my webpage to be easy recognisable through the icon in the tab and also through the name on the fixed navbar while the customers are navigating through the site.
+- As a user, I want to be able to get in touch with the restaurant for any reason.
+- As a user, I want to be able to check the opening hours and to see the restaurant's location.
+- As a curious user, I want to know more about the owner's stories.
+- As a person with an allergy, I want to be able to check out the menu in advance to see if this place is a good option for me.
+- As a person celebrating a special occasion, I want to be able to book a table in advance so nothing goes wrong.
+- As a regular customer, I want to check out the menu before my next visit so I can check out if there are any new dishes.
+- As a potential client, I would like to see the the menu and compare it to other places regarding ingredients, prices, etc.
 
---- 
+---
 
 ## 2. Features
 
 **The Header** includes:
-* **Restaurant's name**: allows users to know where they are every moment.
-* **Navigation Bar**: allows users to navigate the site in an easy and intuitive way. 
+
+- **Restaurant's name**: allows users to know where they are every moment.
+- **Navigation Bar**: allows users to navigate the site in an easy and intuitive way.
 
 **The Footer** includes:
-* **Contact Details**: includes Phone Number and Email Address and it allows users to contact the restaurant if they have any enquiry.
-* **Logo**: allows users to easily recognise the business’ identity and it separates it instantly from competition. 
-* **Social**: allows users to know more about the restaurant and to read other people’s reviews. These are all links to the main pages since this is a fictional restaurant. 
+
+- **Contact Details**: includes Phone Number and Email Address and it allows users to contact the restaurant if they have any enquiry.
+- **Logo**: allows users to easily recognise the business’ identity and it separates it instantly from competition.
+- **Social**: allows users to know more about the restaurant and to read other people’s reviews. These are all links to the main pages since this is a fictional restaurant.
 
 Both the Header and the Footer are consistent throughout the website.
 
-**Home Page** includes: 
-* **Call to action button**: allows users to make a reservation as soon as they enter the site
-* **Discover Nonna Pepita**: allows users to know more about the restaurant's culture and includes a button leading to About us page where they can get more information if they wish.
-* **Reservation form**: allows users to book a table. They’ll submit details such as day, time, number of persons or allergies they might have.
-* **Location**: allows users to know the business' contact details and opening hours, it also includes an embbed Google Maps so it's easier for users to know where the restaurant is located 
+**Home Page** includes:
 
-**Menu Page** includes: 
-* **Restaurant's menu**: a description of the dishes that are on the menu at the moment. It includes the prices and the ingredients so users with an allergy can see if they can eat them.
+- **Call to action button**: allows users to make a reservation as soon as they enter the site
+- **Discover Nonna Pepita**: allows users to know more about the restaurant's culture and includes a button leading to About us page where they can get more information if they wish.
+- **Reservation form**: allows users to book a table. They’ll submit details such as day, time, number of persons or allergies they might have.
+- **Location**: allows users to know the business' contact details and opening hours, it also includes an embbed Google Maps so it's easier for users to know where the restaurant is located
 
-**About us Page** includes: 
-* **Short restaurant's story**: allows the users to get to know the restaurant's philosophy a bit better.
-* **Owners's short biography**: explains the story behind the sisters and their grandmother and their experience in cooking.
+**Menu Page** includes:
 
-**Contact Page** includes: 
-* **Contact form**: allows users to contact the restaurant.
-* **Link to _Reservation_**: allows users that want to book a table instead to contact the restaurant to go back to the Reservation section.
-* **Map**: allows users to know where the restaurant is located.
+- **Restaurant's menu**: a description of the dishes that are on the menu at the moment. It includes the prices and the ingredients so users with an allergy can see if they can eat them.
+
+**About us Page** includes:
+
+- **Short restaurant's story**: allows the users to get to know the restaurant's philosophy a bit better.
+- **Owners's short biography**: explains the story behind the sisters and their grandmother and their experience in cooking.
+
+**Contact Page** includes:
+
+- **Contact form**: allows users to contact the restaurant.
+- **Link to _Reservation_**: allows users that want to book a table instead to contact the restaurant to go back to the Reservation section.
+- **Map**: allows users to know where the restaurant is located.
 
 **Favicon**: allows the user to identify the site by just seeing the icon on the tab.
 
---- 
+---
 
 ## 3. Technologies used
 
-* [HTML5](https://en.wikipedia.org/wiki/HTML5) - provides the content and structure for my website.
-* [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) - provides the styling.
-* [Bootstrap](https://getbootstrap.com/) - used to create the layout of the project.
-* [Google Fonts](https://fonts.google.com/) - used to provide the fonts Josefin Slab for the main text, and Fredericka the Great for headers.
-* [Font Awesome](https://fontawesome.com/) - used the font awesome icons to style the information and the links in the footer, and also for the Reservation section.
-* [Canva](https://www.canva.com/) - used to design the restaurant's logo and icon.
-* [Favicon](https://www.favicon-generator.org//) - used to create the icon from the design made with Canva.
-* [Pixabay](https://pixabay.com/) and [Freepik](https://www.freepik.es/) - used to get images for the project.
-* [Pixabay](https://pixabay.com/) - used to compress the size of the images.
-* [Balsamiq](https://fonts.google.com/) - used to create the project's wireframes.
-* [Gitpod](https://gitpod.io/) - used to develop the website.
-* [GitHub](https://github.com/) - used to host the project.
-
+- [HTML5](https://en.wikipedia.org/wiki/HTML5) - provides the content and structure for my website.
+- [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) - provides the styling.
+- [Bootstrap](https://getbootstrap.com/) - used to create the layout of the project.
+- [Google Fonts](https://fonts.google.com/) - used to provide the fonts Josefin Slab for the main text, and Fredericka the Great for headers.
+- [Font Awesome](https://fontawesome.com/) - used the font awesome icons to style the information and the links in the footer, and also for the Reservation section.
+- [Canva](https://www.canva.com/) - used to design the restaurant's logo and icon.
+- [Favicon](https://www.favicon-generator.org//) - used to create the icon from the design made with Canva.
+- [Pixabay](https://pixabay.com/) and [Freepik](https://www.freepik.es/) - used to get images for the project.
+- [Pixabay](https://pixabay.com/) - used to compress the size of the images.
+- [Balsamiq](https://fonts.google.com/) - used to create the project's wireframes.
+- [Gitpod](https://gitpod.io/) - used to develop the website.
+- [GitHub](https://github.com/) - used to host the project.
 
 ## 4. Testing
 
---- 
+---
 
 ## 5. Deployment
 
---- 
+### TO DEPLOY THE PROJECT
+This project is hosted in GitHub Pages
+
+1. On the menu on the top of the project’s repository on GitHub select **Settings**.
+2. Scroll down to the GitHub **Pages** section.
+3. Inside that section, click on the drop-down menu under **Source** and select **Master Branch**.
+4. The page refreshes automatically and the website is now deployed.
+5. The link to the webpage is just in the GitHub **Pages** section down below.
+
+### TO RUN THE PROJECT LOCALLY
+
+
+
+---
 
 ## 6. Credits
 
 ### 6.1. Content
+Most of the text in this site was made up by myself for this project. 
+
+I got the menu from an [Italian restaurant's website](https://daks2k3a4ib2z.cloudfront.net/58ceb9bdf552f26c38942674/594210fc82bc8d319b7ef921_Piacere%20Mio%20Del%20Sur%20Dinner%202017%20authentic%20italian%20restaurant.png) and I just did a few modifications.
+
+I also took [Bootstrap's collapsible menu](https://getbootstrap.com/docs/4.0/components/navbar/) and modified it for this project. 
 
 ### 6.2. Media
 
+The pictures used in this site were obtained from [Pixabay](https://pixabay.com/) and [Freepik](https://www.freepik.es/).
+
 ### 6.1. Acknowledgments
 
+Precious Ijege for the mentor guidance and support.
+Emmet, Lucia, Marina for their feedback, their help with the testing on their personal devices, the spelling check in English and Italian and also for their emotional support.
