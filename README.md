@@ -2,7 +2,7 @@
 
 Nonna Pepita is a fictional Italian restaurant founded by two Italian sisters who decided to open a restaurant in Cork’s busy city center. They decided to create a fusion cuisine restaurant where they would combine fresh Irish products and imported Italian goods, using their Grandma’s old recipes.
 
-You can visit the deployed website [here](https://fernandagil.github.io/ms1-nonnapepita/).
+You can visit the deployed website [here](https://fernandagil.github.io/ms1-nonnapepita-restaurant/).
 
 ---
 
@@ -100,9 +100,17 @@ This project is hosted in GitHub Pages
 4. The page refreshes automatically and the website is now deployed.
 5. The link to the webpage is just in the GitHub **Pages** section down below.
 
+Only one branch has been used for this project.
+
 ### TO RUN THE PROJECT LOCALLY
+To clone this project from GitHub:
 
-
+1. Under the repository’s name, click **Clone or download**.
+2. In the **Clone with hTTPS** section, copy the given URL.
+3. In your IDE of choice, open **Git Bash**.
+4. Change the current working directory to the location where you want the cloned directory to be made.
+5. Type **git clone**, and then paste the URL copied from GitHub.
+6. Press **enter** and the local clone will be created.
 
 ---
 
@@ -120,6 +128,3 @@ I also took [Bootstrap's collapsible menu](https://getbootstrap.com/docs/4.0/com
 The pictures used in this site were obtained from [Pixabay](https://pixabay.com/) and [Freepik](https://www.freepik.es/).
 
 ### 6.1. Acknowledgments
-
-Precious Ijege for the mentor guidance and support.
-Emmet, Lucia, Marina for their feedback, their help with the testing on their personal devices, the spelling check in English and Italian and also for their emotional support.
