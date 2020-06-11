@@ -545,25 +545,30 @@ h2 {
 
 
 @media (max-width: 767px) {
-   #heading-container{
+   #heading-container {
       padding-top: 1.8rem;
    }
 }
 
 @media screen and (max-width: 767px) {
-   #jumbotron-container{
+   #jumbotron-container {
       padding-top: 3rem;
    }
 }
 
-@media screen and (orientation:landscape) and (max-width: 767px) {
-   .jumbotron p{
+@media (max-width: 767px) and (orientation: landscape) {
+   .jumbotron p {
        display: none;
+       margin: 0;
    } 
+   .jumbotron-header {
+        font-size: 4rem;
+        margin-bottom: 0;
+}
 }
 
 @media (min-width: 768px) {
-  .collapse.dont-collapse-sm{
+  .collapse.dont-collapse-sm {
     display: block;
     height: auto !important;
     visibility: visible;
@@ -571,7 +576,7 @@ h2 {
 }
 
 @media (max-width: 767px) {
-   .menu-area-title{
+   .menu-area-title {
       margin: 0;
       font-size: 2rem;
       padding-top: 0;
