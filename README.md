@@ -53,7 +53,8 @@ Both the Header and the Footer are consistent throughout the website.
 
 **Menu Page** includes:
 
-- **Restaurant's menu**: a description of the dishes that are on the menu at the moment. It includes the prices and the ingredients so users with an allergy can see if they can eat them.
+- **Restaurant's menu**: a description of the dishes that are on the menu at the moment. It includes the prices and the ingredients so users with an allergy can see if they can eat them. 
+This menu is made to be collapsible on smaller screen devices to improve the UX.
 
 **About us Page** includes:
 

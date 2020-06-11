@@ -222,13 +222,13 @@ h2 {
 
 .jumbotron-header {
   color: #fafafa;
-  font-size: 4rem;
+  font-size: 5rem;
   margin-bottom: 30px;
   font-family: "Fredericka the Great", sans-serif;
 }
 
 .jumbotron p {
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   color: #fafafa;
   margin-top: 2rem;
 }
@@ -477,14 +477,6 @@ h2 {
   padding-top: 40px;
 }
 
-@media (max-width: 767px) {
-   .menu-area-title{
-      margin: 0;
-      font-size: 2rem;
-      padding-top: 0;
-   }
-}
-
 .menu-item {
   margin: 10px 0;
 }
@@ -553,21 +545,35 @@ h2 {
 
 
 @media (max-width: 767px) {
-   #heading-container {
+   #heading-container{
       padding-top: 1.8rem;
    }
 }
 
 @media screen and (max-width: 767px) {
-   #jumbotron-container {
+   #jumbotron-container{
       padding-top: 3rem;
    }
 }
 
+@media screen and (orientation:landscape) and (max-width: 767px) {
+   .jumbotron p{
+       display: none;
+   } 
+}
+
 @media (min-width: 768px) {
-  .collapse.dont-collapse-sm {
+  .collapse.dont-collapse-sm{
     display: block;
     height: auto !important;
     visibility: visible;
   }
+}
+
+@media (max-width: 767px) {
+   .menu-area-title{
+      margin: 0;
+      font-size: 2rem;
+      padding-top: 0;
+   }
 }
