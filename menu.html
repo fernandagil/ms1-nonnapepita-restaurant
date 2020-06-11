@@ -83,354 +83,441 @@
         </div>
       </div>
 
-      <!-- MENU -->
-      <div class="container content-container menu-container menu-container-bg">
+      <div
+        class="container content-container menu-container menu-container-bg panel-group"
+        id="accordion"
+      >
         <!-- ANTIPASTI -->
-        <div class="menu-area text-center">
-          <div class="row">
-            <div class="col-12">
-              <h2 class="menu-area-title">Antipasti</h2>
-              <hr class="hr-dotted hr-dotted--white" />
-            </div>
-            <div class="row">
-              <div class="col-6 col-md-4 menu-item">
-                <h5>
-                  ··&nbsp;Prosciutto e burrata ··
-                  <span class="item-price">13.50</span>
-                </h5>
-                <p>
-                  Sliced Parma prosciutto and Burrata cheese.
-                  <span class="item-specification">GF</span>
-                </p>
-              </div>
-              <div class="col-6 col-md-4 menu-item">
-                <h5>
-                  ··&nbsp;Carpaccio di carne ··
-                  <span class="item-price">10.95</span>
-                </h5>
-                <p>
-                  Sliced marinated beef (aged 14 days) served with rockets and
-                  shaved Parmesan cheese.
-                  <span class="item-specification">GF</span>
-                </p>
-              </div>
-              <div class="col-6 col-md-4 menu-item">
-                <h5>
-                  ··&nbsp;Caprese piacere mio ··
-                  <span class="item-price">10.95</span>
-                </h5>
-                <p>
-                  Fresh Burrata cheese with Heirloom tomatoes and basil.
-                  <span class="item-specification">GF</span>
-                  <span class="item-specification">Vg</span>
-                </p>
-              </div>
-              <div class="col-6 col-md-4 menu-item">
-                <h5>
-                  ··&nbsp;Polenta gorgonzola e funghi ··
-                  <span class="item-price">9.95</span>
-                </h5>
-                <p>
-                  Soft corn bread with Gorgonzola cheese and mushrooms.
-                  <span class="item-specification">GF</span>
-                  <span class="item-specification">Vg</span>
-                </p>
-              </div>
-              <div class="col-6 col-md-4 menu-item">
-                <h5>
-                  ··&nbsp;Polenta con cinghiale ··
-                  <span class="item-price">11.95</span>
-                </h5>
-                <p>
-                  Soft corn bread with wild boar.
-                  <span class="item-specification">GF</span>
-                </p>
-              </div>
-              <div class="col-6 col-md-4 menu-item">
-                <h5>
-                  ··&nbsp;Calamari fritti ··
-                  <span class="item-price">10.95</span>
-                </h5>
-                <p>
-                  Deep fried calamari with shrimps and zucchini.
-                </p>
-              </div>
-              <div class="col-6 col-md-4 menu-item">
-                <h5>
-                  ··&nbsp;Bruschetta ··
-                  <span class="item-price">8.95</span>
-                </h5>
-                <p>
-                  Grilled bread topped with cherry tomatoes, mozzarella cheese
-                  and prosciutto.
-                  <span class="item-specification">Vg</span>
-                </p>
-              </div>
-              <div class="col-6 col-md-4 menu-item">
-                <h5>
-                  ··&nbsp;Carciofi ··
-                  <span class="item-price">11.50</span>
-                </h5>
-                <p>
-                  Marinated artichokes hearts with Kalamata olives and shaved
-                  Parmigiano.
-                  <span class="item-specification">GF</span>
-                  <span class="item-specification">Vg</span>
-                </p>
-              </div>
-              <div class="col-6 col-md-4 menu-item">
-                <h5>
-                  ··&nbsp;Polpo e patate ··
-                  <span class="item-price">11.50</span>
-                </h5>
-                <p>
-                  Octopus and potato salad.
-                  <span class="item-specification">GF</span>
-                  <span class="item-specification">Vg</span>
-                </p>
+        <div
+          class="menu-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#accordion-antipasti.in"
+          aria-controls="accordion-antipasti"
+          aria-expanded="true"
+          aria-label="Toggle navigation"
+        >
+          <div class="panel-heading row text-center">
+            <h2 class="panel-title menu-area-title col-12">
+              <a
+                data-toggle="collapse"
+                data-parent="#accordion"
+                href="#collapse1"
+              >
+                Antipasti <i class="fas fa-caret-down d-md-none"></i
+              ></a>
+            </h2>
+          </div>
+        </div>
+        <hr class="hr-dotted hr-dotted--white" />
+
+        <div class="panel-group" id="accordion-antipasti">
+          <div class="panel panel-default">
+            <div
+              id="collapse1"
+              class="panel-collapse collapse in dont-collapse-sm menu-area"
+            >
+              <div class="panel-body text-center">
+                <div class="row">
+                  <div class="col-sm-6 col-md-4 menu-item">
+                    <h5>
+                      ··&nbsp;Prosciutto e burrata&nbsp;··
+                      <span class="item-price">13.50</span>
+                    </h5>
+                    <p>
+                      Sliced Parma prosciutto and Burrata cheese.
+                      <span class="item-specification">GF</span>
+                    </p>
+                  </div>
+                  <div class="col-sm-6 col-md-4 menu-item">
+                    <h5>
+                      ··&nbsp;Carpaccio di carne&nbsp;··
+                      <span class="item-price">10.95</span>
+                    </h5>
+                    <p>
+                      Sliced marinated beef (aged 14 days) served with rockets
+                      and shaved Parmesan cheese.
+                      <span class="item-specification">GF</span>
+                    </p>
+                  </div>
+                  <div class="col-sm-6 col-md-4 menu-item">
+                    <h5>
+                      ··&nbsp;Caprese piacere mio&nbsp;··
+                      <span class="item-price">10.95</span>
+                    </h5>
+                    <p>
+                      Fresh Burrata cheese with Heirloom tomatoes and basil.
+                      <span class="item-specification">GF</span>
+                      <span class="item-specification">Vg</span>
+                    </p>
+                  </div>
+                  <div class="col-sm-6 col-md-4 menu-item">
+                    <h5>
+                      ··&nbsp;Polenta gorgonzola e funghi&nbsp;··
+                      <span class="item-price">9.95</span>
+                    </h5>
+                    <p>
+                      Soft corn bread with Gorgonzola cheese and mushrooms.
+                      <span class="item-specification">GF</span>
+                      <span class="item-specification">Vg</span>
+                    </p>
+                  </div>
+                  <div class="col-sm-6 col-md-4 menu-item">
+                    <h5>
+                      ··&nbsp;Polenta con cinghiale&nbsp;··
+                      <span class="item-price">11.95</span>
+                    </h5>
+                    <p>
+                      Soft corn bread with wild boar.
+                      <span class="item-specification">GF</span>
+                    </p>
+                  </div>
+                  <div class="col-sm-6 col-md-4 menu-item">
+                    <h5>
+                      ··&nbsp;Calamari fritti&nbsp;··
+                      <span class="item-price">10.95</span>
+                    </h5>
+                    <p>
+                      Deep fried calamari with shrimps and zucchini.
+                    </p>
+                  </div>
+                  <div class="col-sm-6 col-md-4 menu-item">
+                    <h5>
+                      ··&nbsp;Bruschetta&nbsp;··
+                      <span class="item-price">8.95</span>
+                    </h5>
+                    <p>
+                      Grilled bread topped with cherry tomatoes, mozzarella
+                      cheese and prosciutto.
+                      <span class="item-specification">Vg</span>
+                    </p>
+                  </div>
+                  <div class="col-sm-6 col-md-4 menu-item">
+                    <h5>
+                      ··&nbsp;Carciofi&nbsp;··
+                      <span class="item-price">11.50</span>
+                    </h5>
+                    <p>
+                      Marinated artichokes hearts with Kalamata olives and
+                      shaved Parmigiano.
+                      <span class="item-specification">GF</span>
+                      <span class="item-specification">Vg</span>
+                    </p>
+                  </div>
+                  <div class="col-sm-6 col-md-4 menu-item">
+                    <h5>
+                      ··&nbsp;Polpo e patate&nbsp;··
+                      <span class="item-price">11.50</span>
+                    </h5>
+                    <p>
+                      Octopus and potato salad.
+                      <span class="item-specification">GF</span>
+                      <span class="item-specification">Vg</span>
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
+
         <!-- INSALATE -->
-        <div class="menu-area text-center">
-          <div class="row">
-            <div class="col-12">
-              <h2 class="menu-area-title">Insalate</h2>
-              <hr class="hr-dotted hr-dotted--white" />
-            </div>
+        <div
+          class="menu-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#accordion-insalate.in"
+          aria-controls="accordion-insalate"
+          aria-expanded="true"
+          aria-label="Toggle navigation"
+        >
+          <div class="panel-heading row text-center">
+            <h2 class="panel-title menu-area-title col-12">
+              <a
+                data-toggle="collapse"
+                data-parent="#accordion"
+                href="#collapse2"
+              >
+                Insalate <i class="fas fa-caret-down d-md-none"></i
+              ></a>
+            </h2>
           </div>
-          <div class="row">
-            <div class="col-6 col-md-4 menu-item">
-              <h5>
-                ··&nbsp;House salad ··
-                <span class="item-price">7.50</span>
-              </h5>
-              <p>
-                Rockets tossed in lemon vinaigrette, topped with shaved Parmesan
-                cheese and served with cherry tomatoes and mixed olives.
-                <span class="item-specification">GF</span>
-                <span class="item-specification">Vg</span>
-              </p>
-            </div>
-            <div class="col-6 col-md-4 menu-item">
-              <h5>
-                ··&nbsp;Cesare salad ··
-                <span class="item-price">7.95</span>
-              </h5>
-              <p>
-                Heart of romain leaf, creoutons and Parmesan cheese in a
-                Caesar's dressing.
-                <span class="item-specification">Vg</span>
-              </p>
-            </div>
-            <div class="col-6 col-md-4 menu-item">
-              <h5>
-                ··&nbsp;Fern salad ··
-                <span class="item-price">8.95</span>
-              </h5>
-              <p>
-                Baby iceberg lettuce topped with smoked pancetta and Gorgonzola
-                crumble in a Ranch dressing.
-                <span class="item-specification">GF</span>
-              </p>
-            </div>
-            <div class="col-6 col-md-4 menu-item">
-              <h5>
-                ··&nbsp;Grape salad ··
-                <span class="item-price">8.95</span>
-              </h5>
-              <p>
-                Baby spinach salad tossed with balsamic dressing, goat's cheese
-                crumble, berry mix and red grapes.
-                <span class="item-specification">GF</span>
-                <span class="item-specification">Vg</span>
-              </p>
-            </div>
-            <div class="col-6 col-md-4 menu-item">
-              <h5>
-                ··&nbsp;Piacere mio salad ··
-                <span class="item-price">8.95</span>
-              </h5>
-              <p>
-                Mixed greens, cherry tomatoes, corn and avocado in a creamy
-                avocado dressing.
-                <span class="item-specification">GF</span>
-                <span class="item-specification">Vg</span>
-              </p>
-            </div>
-            <div class="col-6 col-md-4 menu-item">
-              <h5>
-                ··&nbsp;Pear salad ··
-                <span class="item-price">9.95</span>
-              </h5>
-              <p>
-                Mixed greens, pear, walnuts and Gorgonzola crumble in a
-                raspberry dressing.
-                <span class="item-specification">GF</span>
-                <span class="item-specification">Vg</span>
-              </p>
-            </div>
-          </div>
-          <!-- Insalate extras -->
-          <div class="row">
-            <div class="col-12 insalate-extras">
-              <hr class="hr-extras" />
-              <p>
-                ADD CHICKEN.......... 2 · ADD SALMON .......... 2 · ADD
-                SHRIMPS.......... 4
-              </p>
+        </div>
+        <hr class="hr-dotted hr-dotted--white" />
+
+        <div class="panel-group" id="accordion-insalate">
+          <div class="panel panel-default">
+            <div
+              id="collapse2"
+              class="panel-collapse collapse in dont-collapse-sm menu-area"
+            >
+              <div class="panel-body text-center">
+                <div class="row">
+                  <div class="col-sm-6 col-md-4 menu-item">
+                    <h5>
+                      ··&nbsp;House salad&nbsp;··
+                      <span class="item-price">7.50</span>
+                    </h5>
+                    <p>
+                      Rockets tossed in lemon vinaigrette, topped with shaved
+                      Parmesan cheese and served with cherry tomatoes and mixed
+                      olives.
+                      <span class="item-specification">GF</span>
+                      <span class="item-specification">Vg</span>
+                    </p>
+                  </div>
+                  <div class="col-sm-6 col-md-4 menu-item">
+                    <h5>
+                      ··&nbsp;Cesare salad&nbsp;··
+                      <span class="item-price">7.95</span>
+                    </h5>
+                    <p>
+                      Heart of romain leaf, creoutons and Parmesan cheese in a
+                      Caesar's dressing.
+                      <span class="item-specification">Vg</span>
+                    </p>
+                  </div>
+                  <div class="col-sm-6 col-md-4 menu-item">
+                    <h5>
+                      ··&nbsp;Fern salad&nbsp;··
+                      <span class="item-price">8.95</span>
+                    </h5>
+                    <p>
+                      Baby iceberg lettuce topped with smoked pancetta and
+                      Gorgonzola crumble in a Ranch dressing.
+                      <span class="item-specification">GF</span>
+                    </p>
+                  </div>
+                  <div class="col-sm-6 col-md-4 menu-item">
+                    <h5>
+                      ··&nbsp;Grape salad&nbsp;··
+                      <span class="item-price">8.95</span>
+                    </h5>
+                    <p>
+                      Baby spinach salad tossed with balsamic dressing, goat's
+                      cheese crumble, berry mix and red grapes.
+                      <span class="item-specification">GF</span>
+                      <span class="item-specification">Vg</span>
+                    </p>
+                  </div>
+                  <div class="col-sm-6 col-md-4 menu-item">
+                    <h5>
+                      ··&nbsp;Piacere mio salad&nbsp;··
+                      <span class="item-price">8.95</span>
+                    </h5>
+                    <p>
+                      Mixed greens, cherry tomatoes, corn and avocado in a
+                      creamy avocado dressing.
+                      <span class="item-specification">GF</span>
+                      <span class="item-specification">Vg</span>
+                    </p>
+                  </div>
+                  <div class="col-sm-6 col-md-4 menu-item">
+                    <h5>
+                      ··&nbsp;Pear salad&nbsp;··
+                      <span class="item-price">9.95</span>
+                    </h5>
+                    <p>
+                      Mixed greens, pear, walnuts and Gorgonzola crumble in a
+                      raspberry dressing.
+                      <span class="item-specification">GF</span>
+                      <span class="item-specification">Vg</span>
+                    </p>
+                  </div>
+                </div>
+                <!-- Insalate extras -->
+                <div class="row">
+                  <div class="col-12 insalate-extras">
+                    <hr class="hr-extras" />
+                    <p>
+                      ADD CHICKEN.......... 2 · ADD SALMON .......... 2 · ADD
+                      SHRIMPS.......... 4
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
+
         <!-- PIZZE -->
-        <div class="menu-area text-center">
-          <div class="row">
-            <div class="col-12">
-              <h2 class="menu-area-title">Pizze</h2>
-              <hr class="hr-dotted hr-dotted--white" />
-            </div>
+        <div
+          class="menu-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#accordion-pizze.in"
+          aria-controls="accordion-pizze"
+          aria-expanded="true"
+          aria-label="Toggle navigation"
+        >
+          <div class="panel-heading row text-center">
+            <h2 class="panel-title menu-area-title col-12">
+              <a
+                data-toggle="collapse"
+                data-parent="#accordion"
+                href="#collapse3"
+              >
+                Pizze <i class="fas fa-caret-down d-md-none"></i
+              ></a>
+            </h2>
           </div>
-          <div class="row">
-            <div class="col-6 col-md-4 menu-item">
-              <h5>
-                ··&nbsp;Marinara ··
-                <span class="item-price">10.00</span>
-              </h5>
-              <p>
-                Marinara sauce, oregano and garlic.
-              </p>
-            </div>
-            <div class="col-6 col-md-4 menu-item">
-              <h5>
-                ··&nbsp;Margherita ··
-                <span class="item-price">12.50</span>
-              </h5>
-              <p>
-                Marinara sauce, fresh mozzarella and basil.
-              </p>
-            </div>
-            <div class="col-6 col-md-4 menu-item">
-              <h5>
-                ··&nbsp;Modigliani ··
-                <span class="item-price">15.00</span>
-              </h5>
-              <p>
-                Tomato sauce, mozzarella, ham, mushrooms, artichokes, sweet
-                salami.
-              </p>
-            </div>
-            <div class="col-6 col-md-4 menu-item">
-              <h5>
-                ··&nbsp;Fontana ··
-                <span class="item-price">15.50</span>
-              </h5>
-              <p>
-                Tomato sauce, mozzarella, truffle oil, Prosciutto di Parma and
-                mushrooms.
-              </p>
-            </div>
-            <div class="col-6 col-md-4 menu-item">
-              <h5>
-                ··&nbsp;Da Vinci ··
-                <span class="item-price">14.50</span>
-              </h5>
-              <p>
-                Tomato sauce, mozzarella, rockets, vodka and Prosciutto di
-                Parma.
-              </p>
-            </div>
-            <div class="col-6 col-md-4 menu-item">
-              <h5>
-                ··&nbsp;Bartesaghi ··
-                <span class="item-price">16.50</span>
-              </h5>
-              <p>
-                Tomato sauce, mozzarella, Prosciutto di Parma, rockets and
-                shaved Parmigiano.
-              </p>
-            </div>
-            <div class="col-6 col-md-4 menu-item">
-              <h5>
-                ··&nbsp;Romagnoli ··
-                <span class="item-price">14.00</span>
-              </h5>
-              <p>
-                Tomato sauce, mozzarella, spicy salami.
-              </p>
-            </div>
-            <div class="col-6 col-md-4 menu-item">
-              <h5>
-                ··&nbsp;Raffaello ··
-                <span class="item-price">14.00</span>
-              </h5>
-              <p>
-                Tomato sauce, mozzarella, spinach, mushrooms, onions, rockets
-                and bell peppers.
-              </p>
-            </div>
-            <div class="col-6 col-md-4 menu-item">
-              <h5>
-                ··&nbsp;Michelangelo ··
-                <span class="item-price">17.00</span>
-              </h5>
-              <p>
-                Mozzarella, pesto, Prosciutto di Parma, shrimp, rockets and
-                shaved Parmigiano.
-              </p>
-            </div>
-            <div class="col-6 col-md-4 menu-item">
-              <h5>
-                ··&nbsp;Regina ··
-                <span class="item-price">15.00</span>
-              </h5>
-              <p>
-                Heirloom cherry tomatoes, Buffalo mozzarella and basil.
-              </p>
-            </div>
-            <div class="col-6 col-md-4 menu-item">
-              <h5>
-                ··&nbsp;Quattro formaggi ··
-                <span class="item-price">13.00</span>
-              </h5>
-              <p>
-                Mozzarella, Gorgonzola, romano and smoked mozzarella. <br />
-                <span>ADD PROSCIUTTO.......... 2</span>
-              </p>
-            </div>
-            <div class="col-6 col-md-4 menu-item">
-              <h5>
-                ··&nbsp;Caravaggio ··
-                <span class="item-price">15.00</span>
-              </h5>
-              <p>
-                Smoked mozzarella, sausage and rapini.
-              </p>
-            </div>
-            <div class="col-6 col-md-4 menu-item">
-              <h5>
-                ··&nbsp;Cimabue ··
-                <span class="item-price">15.00</span>
-              </h5>
-              <p>
-                Smoked mozzarella, sausage, bell pepper, onion and red wine.
-              </p>
-            </div>
-            <div class="col-6 col-md-4 menu-item">
-              <h5>
-                ··&nbsp;Gallina ··
-                <span class="item-price">17.00</span>
-              </h5>
-              <p>
-                Mozzarella, ham, sweet salammi, mushrooms, egg and pancetta.
-              </p>
-            </div>
-          </div>
-          <!-- Pizze extras -->
-          <div class="row">
-            <div class="col-12 pizze-extras">
-              <hr class="hr-extras" />
-              <p>GLUTEN FREE BASE.......... 2</p>
+        </div>
+        <hr class="hr-dotted hr-dotted--white" />
+
+        <div class="panel-group" id="accordion-pizze">
+          <div class="panel panel-default">
+            <div
+              id="collapse3"
+              class="panel-collapse collapse in dont-collapse-sm menu-area"
+            >
+              <div class="panel-body text-center">
+                <div class="row">
+                  <div class="col-sm-6 col-md-4 menu-item">
+                    <h5>
+                      ··&nbsp;Marinara&nbsp;··
+                      <span class="item-price">10.00</span>
+                    </h5>
+                    <p>
+                      Marinara sauce, oregano and garlic.
+                    </p>
+                  </div>
+                  <div class="col-sm-6 col-md-4 menu-item">
+                    <h5>
+                      ··&nbsp;Margherita&nbsp;··
+                      <span class="item-price">12.50</span>
+                    </h5>
+                    <p>
+                      Marinara sauce, fresh mozzarella and basil.
+                    </p>
+                  </div>
+                  <div class="col-sm-6 col-md-4 menu-item">
+                    <h5>
+                      ··&nbsp;Modigliani&nbsp;··
+                      <span class="item-price">15.00</span>
+                    </h5>
+                    <p>
+                      Tomato sauce, mozzarella, ham, mushrooms, artichokes,
+                      sweet salami.
+                    </p>
+                  </div>
+                  <div class="col-sm-6 col-md-4 menu-item">
+                    <h5>
+                      ··&nbsp;Fontana&nbsp;··
+                      <span class="item-price">15.50</span>
+                    </h5>
+                    <p>
+                      Tomato sauce, mozzarella, truffle oil, Prosciutto di Parma
+                      and mushrooms.
+                    </p>
+                  </div>
+                  <div class="col-sm-6 col-md-4 menu-item">
+                    <h5>
+                      ··&nbsp;Da Vinci&nbsp;··
+                      <span class="item-price">14.50</span>
+                    </h5>
+                    <p>
+                      Tomato sauce, mozzarella, rockets, vodka and Prosciutto di
+                      Parma.
+                    </p>
+                  </div>
+                  <div class="col-sm-6 col-md-4 menu-item">
+                    <h5>
+                      ··&nbsp;Bartesaghi&nbsp;··
+                      <span class="item-price">16.50</span>
+                    </h5>
+                    <p>
+                      Tomato sauce, mozzarella, Prosciutto di Parma, rockets and
+                      shaved Parmigiano.
+                    </p>
+                  </div>
+                  <div class="col-sm-6 col-md-4 menu-item">
+                    <h5>
+                      ··&nbsp;Romagnoli&nbsp;··
+                      <span class="item-price">14.00</span>
+                    </h5>
+                    <p>
+                      Tomato sauce, mozzarella, spicy salami.
+                    </p>
+                  </div>
+                  <div class="col-sm-6 col-md-4 menu-item">
+                    <h5>
+                      ··&nbsp;Raffaello&nbsp;··
+                      <span class="item-price">14.00</span>
+                    </h5>
+                    <p>
+                      Tomato sauce, mozzarella, spinach, mushrooms, onions,
+                      rockets and bell peppers.
+                    </p>
+                  </div>
+                  <div class="col-sm-6 col-md-4 menu-item">
+                    <h5>
+                      ··&nbsp;Michelangelo&nbsp;··
+                      <span class="item-price">17.00</span>
+                    </h5>
+                    <p>
+                      Mozzarella, pesto, Prosciutto di Parma, shrimp, rockets
+                      and shaved Parmigiano.
+                    </p>
+                  </div>
+                  <div class="col-sm-6 col-md-4 menu-item">
+                    <h5>
+                      ··&nbsp;Regina&nbsp;··
+                      <span class="item-price">15.00</span>
+                    </h5>
+                    <p>
+                      Heirloom cherry tomatoes, Buffalo mozzarella and basil.
+                    </p>
+                  </div>
+                  <div class="col-sm-6 col-md-4 menu-item">
+                    <h5>
+                      ··&nbsp;Quattro formaggi&nbsp;··
+                      <span class="item-price">13.00</span>
+                    </h5>
+                    <p>
+                      Mozzarella, Gorgonzola, romano and smoked mozzarella.
+                      <br />
+                      <span>ADD PROSCIUTTO.......... 2</span>
+                    </p>
+                  </div>
+                  <div class="col-sm-6 col-md-4 menu-item">
+                    <h5>
+                      ··&nbsp;Caravaggio&nbsp;··
+                      <span class="item-price">15.00</span>
+                    </h5>
+                    <p>
+                      Smoked mozzarella, sausage and rapini.
+                    </p>
+                  </div>
+                  <div class="col-sm-6 col-md-4 menu-item">
+                    <h5>
+                      ··&nbsp;Cimabue&nbsp;··
+                      <span class="item-price">15.00</span>
+                    </h5>
+                    <p>
+                      Smoked mozzarella, sausage, bell pepper, onion and red
+                      wine.
+                    </p>
+                  </div>
+                  <div class="col-sm-6 col-md-4 menu-item">
+                    <h5>
+                      ··&nbsp;Gallina&nbsp;··
+                      <span class="item-price">17.00</span>
+                    </h5>
+                    <p>
+                      Mozzarella, ham, sweet salammi, mushrooms, egg and
+                      pancetta.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Pizze extras -->
+              <div class="row">
+                <div class="col-12 pizze-extras">
+                  <hr class="hr-extras" />
+                  <p>GLUTEN FREE BASE.......... 2</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>

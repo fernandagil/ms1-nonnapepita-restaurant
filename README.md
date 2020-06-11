@@ -76,7 +76,7 @@ Both the Header and the Footer are consistent throughout the website.
 - [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) - provides the styling.
 - [Bootstrap](https://getbootstrap.com/) - used to create the layout of the project.
 - [Google Fonts](https://fonts.google.com/) - used to provide the fonts Josefin Slab for the main text, and Fredericka the Great for headers.
-- [Font Awesome](https://fontawesome.com/) - used the font awesome icons to style the information and the links in the footer, and also for the Reservation section.
+- [Font Awesome](https://fontawesome.com/) - used the font awesome icons to style the information and the links in the footer, and also to make the Reservation section stand out a small bit.
 - [Canva](https://www.canva.com/) - used to design the restaurant's logo and icon.
 - [Favicon](https://www.favicon-generator.org//) - used to create the icon from the design made with Canva.
 - [Pixabay](https://pixabay.com/) and [Freepik](https://www.freepik.es/) - used to get images for the project.
