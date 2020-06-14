@@ -27,6 +27,15 @@ This website was also designed for the public, regular and potential clients, so
 - As a regular customer, I want to check out the menu before my next visit so I can check out if there are any new dishes.
 - As a potential client, I would like to see the the menu and compare it to other places regarding ingredients, prices, etc.
 
+#### 1.3. Wireframes
+The wireframes were designed using [Balsamiq](https://balsamiq.com/). They're accessible in the following links:
+|    Desktop   |    Tablet    |    Mobile    |
+|    :----:    |     :----:   |    :----:    |
+|[Home Page](/wireframes/home-desktop.png)|[Home Page](/wireframes/home-tablet.png)|[Home Page](/wireframes/home-mobile.png)|
+|[Menu Page](/wireframes/menu-desktop.png)|[Menu Page](/wireframes/menu-tablet.png)|[Menu Page](/wireframes/menu-mobile.png)|
+|[About Page](/wireframes/about-desktop.png)|[About Page](/wireframes/about-tablet.png)|[About Page](/wireframes/about-mobile.png)|
+|[Contact Page](/wireframes/contact-desktop.png)|[Contact Page](/wireframes/contact-tablet.png)|[Contact Page](/wireframes/contact-mobile.png)|
+
 ---
 
 ## 2. Features
@@ -81,8 +90,8 @@ This menu is made to be collapsible on smaller screen devices to improve the UX.
 - [Canva](https://www.canva.com/) - used to design the restaurant's logo and icon.
 - [Favicon](https://www.favicon-generator.org//) - used to create the icon from the design made with Canva.
 - [Pixabay](https://pixabay.com/) and [Freepik](https://www.freepik.es/) - used to get images for the project.
-- [Pixabay](https://pixabay.com/) - used to compress the size of the images.
-- [Balsamiq](https://fonts.google.com/) - used to create the project's wireframes.
+- [Picresize](https://picresize.com/) - used to compress the size of the images.
+- [Balsamiq](https://balsamiq.com/) - used to create the project's wireframes.
 - [Gitpod](https://gitpod.io/) - used to develop the website.
 - [GitHub](https://github.com/) - used to host the project.
 
