@@ -122,7 +122,9 @@ Most of the text in this site was made up by myself for this project.
 
 I got the menu from an [Italian restaurant's website](https://daks2k3a4ib2z.cloudfront.net/58ceb9bdf552f26c38942674/594210fc82bc8d319b7ef921_Piacere%20Mio%20Del%20Sur%20Dinner%202017%20authentic%20italian%20restaurant.png) and I just did a few modifications.
 
-I also took [Bootstrap's collapsible menu](https://getbootstrap.com/docs/4.0/components/navbar/) and modified it for this project. 
+I also took [Bootstrap's collapsible navbar](https://getbootstrap.com/docs/4.0/components/navbar/) and modified it for this project. 
+
+I took inspiration from [W3Schools](https://www.w3schools.com/bootstrap/bootstrap_collapse.asp) to make the restaurant's menu a dropdown for better UX on smaller devices.
 
 ### 6.2. Media
 
