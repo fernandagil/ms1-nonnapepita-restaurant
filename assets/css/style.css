@@ -66,9 +66,11 @@ h2 {
   border-top: 2px dotted;
   width: 130px;
 }
+
 .hr-about-top, .hr-about-bottom {
     padding-bottom: 2px;
 }
+
 /* --------------------------------------------- BUTTONS */
 
 .btn--book {
@@ -186,7 +188,9 @@ h2 {
 .navbar-nav .nav-link {
   padding: 4px 12px;
   font-size: 1.1rem;
-  align-items: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -201,13 +205,16 @@ h2 {
 .callout-container {
   height: 100vh;
   background: url(../images/home-bg.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   position: relative;
 }
 
@@ -443,7 +450,8 @@ h2 {
   height: 200px;
   width: 200px;
   border-radius: 50%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .family-member h4 {
@@ -542,7 +550,6 @@ h2 {
 }
 
 /* --------------------------------------------- MEDIA QUERIES */
-
 
 @media (max-width: 768px) {
    #heading-container {

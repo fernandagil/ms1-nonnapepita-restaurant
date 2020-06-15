@@ -1,5 +1,8 @@
 # Nonna Pepita
 
+![Nonna Pepita](/wireframes/amiresponsive.png)
+
+
 Nonna Pepita is a fictional Italian restaurant founded by two Italian sisters who decided to open a restaurant in Cork’s busy city center. They decided to create a fusion cuisine restaurant where they would combine fresh Irish products and imported Italian goods, using their Grandma’s old recipes.
 
 You can visit the deployed website [here](https://fernandagil.github.io/ms1-nonnapepita-restaurant/).
@@ -29,6 +32,7 @@ This website was also designed for the public, regular and potential clients, so
 
 #### 1.3. Wireframes
 The wireframes were designed using [Balsamiq](https://balsamiq.com/). They're accessible in the following links:
+
 |    Desktop   |    Tablet    |    Mobile    |
 |    :----:    |     :----:   |    :----:    |
 |[Home Page](/wireframes/home-desktop.png)|[Home Page](/wireframes/home-tablet.png)|[Home Page](/wireframes/home-mobile.png)|
@@ -85,15 +89,17 @@ This menu is made to be collapsible on smaller screen devices to improve the UX.
 - [HTML5](https://en.wikipedia.org/wiki/HTML5) - provides the content and structure for my website.
 - [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) - provides the styling.
 - [Bootstrap](https://getbootstrap.com/) - used to create the layout of the project.
+- [Balsamiq](https://balsamiq.com/) - used to create the project's wireframes.
+- [Gitpod](https://gitpod.io/) - used to develop the website.
+- [GitHub](https://github.com/) - used to host the project.
 - [Google Fonts](https://fonts.google.com/) - used to provide the fonts Josefin Slab for the main text, and Fredericka the Great for headers.
 - [Font Awesome](https://fontawesome.com/) - used the font awesome icons to style the information and the links in the footer, and also to make the Reservation section stand out a small bit.
 - [Canva](https://www.canva.com/) - used to design the restaurant's logo and icon.
 - [Favicon](https://www.favicon-generator.org//) - used to create the icon from the design made with Canva.
 - [Pixabay](https://pixabay.com/) and [Freepik](https://www.freepik.es/) - used to get images for the project.
 - [Picresize](https://picresize.com/) - used to compress the size of the images.
-- [Balsamiq](https://balsamiq.com/) - used to create the project's wireframes.
-- [Gitpod](https://gitpod.io/) - used to develop the website.
-- [GitHub](https://github.com/) - used to host the project.
+- [Am I Responsive?](http://ami.responsivedesign.is/) - used to show in a quick visual way the responsiveness of the site.
+- [Autoprefixer](https://autoprefixer.github.io/) - used to parsethe CSS and to add vendor prefixes to CSS rules.
 
 ## 4. Testing
 
@@ -101,7 +107,8 @@ This menu is made to be collapsible on smaller screen devices to improve the UX.
 
 ## 5. Deployment
 
-### TO DEPLOY THE PROJECT
+**To deploy the project**
+
 This project is hosted in GitHub Pages
 
 1. On the menu on the top of the project’s repository on GitHub select **Settings**.
@@ -112,7 +119,8 @@ This project is hosted in GitHub Pages
 
 Only one branch has been used for this project.
 
-### TO RUN THE PROJECT LOCALLY
+**To run the project locally**
+
 To clone this project from GitHub:
 
 1. Under the repository’s name, click **Clone or download**.
