@@ -34,8 +34,8 @@ h2 {
 }
 
 .hr-callout {
-    margin-top: 25px;
-    margin-bottom: 35px;
+  margin-top: 25px;
+  margin-bottom: 30px;
 }
 
 .hr-dotted {
@@ -67,8 +67,9 @@ h2 {
   width: 130px;
 }
 
-.hr-about-top, .hr-about-bottom {
-    padding-bottom: 2px;
+.hr-about-top,
+.hr-about-bottom {
+  padding-bottom: 2px;
 }
 
 /* --------------------------------------------- BUTTONS */
@@ -189,8 +190,8 @@ h2 {
   padding: 4px 12px;
   font-size: 1.1rem;
   -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -210,18 +211,18 @@ h2 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   position: relative;
 }
 
 #jumbotron-container {
-    height: 100%;
-    padding-top: 160px;
-} 
+  height: 100%;
+  padding-top: 160px;
+}
 
 .jumbotron {
   background-color: transparent;
@@ -417,8 +418,8 @@ h2 {
 }
 
 #heading-container {
-    height: 100%;
-    padding-top: 80px;
+  height: 100%;
+  padding-top: 80px;
 }
 
 /* --------------------------------------------- ABOUT US PAGE */
@@ -429,9 +430,9 @@ h2 {
 }
 
 .about-title h3 {
-    font-size: 3rem;
-    text-align: center;
-    padding: 30px 0;
+  font-size: 3rem;
+  text-align: center;
+  padding: 30px 0;
 }
 
 .introduction {
@@ -439,11 +440,11 @@ h2 {
 }
 
 .introduction-text p {
-    margin: 40px auto;
+  margin: 40px auto;
 }
 
 .family-member {
-    margin-bottom: 35px;
+  margin-bottom: 35px;
 }
 
 .family-member img {
@@ -451,7 +452,7 @@ h2 {
   width: 200px;
   border-radius: 50%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .family-member h4 {
@@ -474,7 +475,7 @@ h2 {
   height: 100%;
 }
 
-.panel-heading a{
+.panel-heading a {
   text-decoration: none;
   color: #fafafa;
 }
@@ -552,42 +553,43 @@ h2 {
 /* --------------------------------------------- MEDIA QUERIES */
 
 @media (max-width: 768px) {
-   #heading-container {
-      padding-top: 1.8rem;
-   }
-}
-
-@media screen and (max-device-width: 768px) and (orientation: landscape) {
-    #heading-container {
-      padding-top: 0;
-   }
-}
-
-@media screen and (max-width: 768px) {
-   #jumbotron-container {
-      padding-top: 3rem;
-   }
-}
-
-@media screen and (max-device-width: 768px) and (orientation: landscape) {
-   .jumbotron-header {
-        font-size: 4rem;
-        margin-bottom: 0;
-    }
-}
-
-@media (min-width: 768px) {
+  #heading-container {
+    padding-top: 1.8rem;
+  }
+  #jumbotron-container {
+    padding-top: 3rem;
+  }
   .collapse.dont-collapse-sm {
     display: block;
     height: auto !important;
     visibility: visible;
   }
+  .menu-area-title {
+    margin: 0;
+    font-size: 2rem;
+    padding-top: 0;
+  }
 }
 
-@media (max-width: 767px) {
-   .menu-area-title {
-      margin: 0;
-      font-size: 2rem;
-      padding-top: 0;
-   }
+@media screen and (max-device-width: 768px) and (orientation: landscape) {
+  #heading-container {
+    padding-top: 0;
+  }
+  .jumbotron {
+    padding: 1.5rem 0;
+  }
+  .jumbotron-header {
+    font-size: 2.5rem;
+    margin-bottom: 0;
+  }
+  .hr-callout {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .btn--book {
+    padding: 1rem 0;
+    width: 150;
+    line-height: 1.6;
+    margin-top: 0;
+  }
 }
