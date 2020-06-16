@@ -1,6 +1,12 @@
 # Testing
 
 ## Code validators
+
+[Markup Validator](https://validator.w3.org/) : the test returned an error that was solved by adding an empty value attribute. The warnings were ignored since they were design decisions. 
+
+![Markup Validator](htmlvalidator.png)
+
+[CSS Validator](https://jigsaw.w3.org/css-validator/)
 - chrome developer tools
 -html
 -css
