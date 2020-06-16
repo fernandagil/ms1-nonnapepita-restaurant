@@ -6,10 +6,7 @@
 
 ![Markup Validator](htmlvalidator.png)
 
-[CSS Validator](https://jigsaw.w3.org/css-validator/)
-- chrome developer tools
--html
--css
+[CSS Validator](https://jigsaw.w3.org/css-validator/) : the test didn't find any errors.
 
 ## Responsiveness
 

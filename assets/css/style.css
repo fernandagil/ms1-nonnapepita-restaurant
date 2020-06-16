@@ -571,7 +571,7 @@ h2 {
   }
 }
 
-@media screen and (max-device-width: 768px) and (orientation: landscape) {
+@media screen and (max-width: 768px) and (orientation: landscape) {
   #heading-container {
     padding-top: 0;
   }
@@ -588,7 +588,7 @@ h2 {
   }
   .btn--book {
     padding: 1rem 0;
-    width: 150;
+    width: 150px;
     line-height: 1.6;
     margin-top: 0;
   }
