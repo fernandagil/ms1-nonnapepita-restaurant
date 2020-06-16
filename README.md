@@ -1,6 +1,6 @@
 # Nonna Pepita
 
-![Nonna Pepita](/wireframes/amiresponsive.png)
+![Nonna Pepita](readme-files//amiresponsive.png)
 
 
 Nonna Pepita is a fictional Italian restaurant founded by two Italian sisters who decided to open a restaurant in Cork’s busy city center. They decided to create a fusion cuisine restaurant where they would combine fresh Irish products and imported Italian goods, using their Grandma’s old recipes.
@@ -35,14 +35,16 @@ The wireframes were designed using [Balsamiq](https://balsamiq.com/). They're ac
 
 |    Desktop   |    Tablet    |    Mobile    |
 |    :----:    |     :----:   |    :----:    |
-|[Home Page](/wireframes/home-desktop.png)|[Home Page](/wireframes/home-tablet.png)|[Home Page](/wireframes/home-mobile.png)|
-|[Menu Page](/wireframes/menu-desktop.png)|[Menu Page](/wireframes/menu-tablet.png)|[Menu Page](/wireframes/menu-mobile.png)|
-|[About Page](/wireframes/about-desktop.png)|[About Page](/wireframes/about-tablet.png)|[About Page](/wireframes/about-mobile.png)|
-|[Contact Page](/wireframes/contact-desktop.png)|[Contact Page](/wireframes/contact-tablet.png)|[Contact Page](/wireframes/contact-mobile.png)|
+|[Home Page](readme-files/wireframes/home-desktop.png)|[Home Page](readme-files/wireframes/home-tablet.png)|[Home Page](readme-files/wireframes/home-mobile.png)|
+|[Menu Page](readme-files/wireframes/menu-desktop.png)|[Menu Page](readme-files/wireframes/menu-tablet.png)|[Menu Page](readme-files/wireframes/menu-mobile.png)|
+|[About Page](readme-files/wireframes/about-desktop.png)|[About Page](readme-files/wireframes/about-tablet.png)|[About Page](readme-files/wireframes/about-mobile.png)|
+|[Contact Page](readme-files/wireframes/contact-desktop.png)|[Contact Page](readme-files/wireframes/contact-tablet.png)|[Contact Page](readme-files/wireframes/contact-mobile.png)|
 
 ---
 
 ## 2. Features
+
+### 2.1. Existing features
 
 **The Header** includes:
 
@@ -82,6 +84,12 @@ This menu is made to be collapsible on smaller screen devices to improve the UX.
 
 **Favicon**: allows the user to identify the site by just seeing the icon on the tab.
 
+### 2.2. Features left to implement
+
+- Backend to be able to submit the forms and send a comfirmation email.
+- Gallery with some pictures of the restaurant and the dishes
+- Section with testimonials and customers' reviews.
+
 ---
 
 ## 3. Technologies used
@@ -102,6 +110,8 @@ This menu is made to be collapsible on smaller screen devices to improve the UX.
 - [Autoprefixer](https://autoprefixer.github.io/) - used to parsethe CSS and to add vendor prefixes to CSS rules.
 
 ## 4. Testing
+
+The testing process can be seen [here](readme-files/TESTING.md).
 
 ---
 
