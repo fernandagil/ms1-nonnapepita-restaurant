@@ -105,7 +105,7 @@ This menu is made to be collapsible on smaller screen devices to improve the UX.
 - [Canva](https://www.canva.com/) - used to design the restaurant's logo and icon.
 - [Favicon](https://www.favicon-generator.org//) - used to create the icon from the design made with Canva.
 - [Pixabay](https://pixabay.com/) and [Freepik](https://www.freepik.es/) - used to get images for the project.
-- [Picresize](https://picresize.com/) - used to compress the size of the images.
+- [Picresize](https://picresize.com/) and [TinyJPG](https://tinyjpg.com/) - used to compress the size of the images.
 - [Am I Responsive?](http://ami.responsivedesign.is/) - used to show in a quick visual way the responsiveness of the site.
 - [Autoprefixer](https://autoprefixer.github.io/) - used to parsethe CSS and to add vendor prefixes to CSS rules.
 
