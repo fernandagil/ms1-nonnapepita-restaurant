@@ -21,7 +21,7 @@ This website was also designed for the public, regular and potential clients, so
 
 - As an owner, I want to show off what we can do to attract more clients.
 - As an owner, I want to offer the possibility to book online to avoid unnecessary calls during busy hours.
-- As an owner, I want my webpage to be easy recognisable through the icon in the tab and also through the name on the fixed navbar while the customers are navigating through the site.
+- As an owner, I want my website to be easy recognisable through the icon in the tab and also through the name on the fixed navbar while the customers are navigating through the site.
 - As a user, I want to be able to get in touch with the restaurant for any reason.
 - As a user, I want to be able to check the opening hours and to see the restaurant's location.
 - As a curious user, I want to know more about the owner's stories.
