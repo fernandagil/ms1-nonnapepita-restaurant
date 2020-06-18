@@ -158,3 +158,9 @@ I took inspiration from [W3Schools](https://www.w3schools.com/bootstrap/bootstra
 The pictures used in this site were obtained from [Pixabay](https://pixabay.com/) and [Freepik](https://www.freepik.es/).
 
 ### 6.1. Acknowledgments
+
+Precious Ijege for the mentor guidance and support.
+
+The tutor team, and specially Scott, for their help and patience.
+
+Emmet, Lucia, Marina for their feedback, their help with the testing on their personal devices, the spelling check in both English and Italian and also for their emotional support.

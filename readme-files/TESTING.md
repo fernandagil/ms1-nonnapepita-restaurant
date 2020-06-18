@@ -10,7 +10,21 @@
 
 ## Responsiveness
 
+To test the responsiveness of the site I used [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) and [Responsive Design Checker](https://www.responsivedesignchecker.com/).
+![Responsive Design](responsiveness.png)
+
+Notes:
+
+- The design is responsive in most screen sizes. The only issue that I've found is that on a 10'' Notebook screen the jumbotron on "Home Page" might overflow a small bit.
+
 ## Browser compatibility
+
+![Browser Compatibility](compatibility.png)
+
+Notes:
+
+- The site renders quite good on Firefox, although on the **Menu Page** the headings show a white overlay/background.
+- On Microsoft Edge and Internet Explorer, the call to action button on **Home Page** doesn't seem to show the background color, but thanks to the border that does display properly it's easy to still see that is a button.
 
 ## Testing User stories
 
@@ -56,7 +70,13 @@ This is easy accessible on the **Menu Page**. The user can access this from ever
 ## Bugs 
 
 - One of the major bugs I found during the development process was the overflowing jumbotron on mobile's landscape mode. 
+
 This was solved by adding some media queries to make reduce some margins and paddings.
 
 
+## Bugs to be fixed
+
+- When using Firefox, the white overlay on headings on the **Menu Page**.
+
+[Go back to README.md file](../README.md).
 
