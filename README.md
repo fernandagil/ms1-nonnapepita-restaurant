@@ -35,10 +35,10 @@ The wireframes were designed using [Balsamiq](https://balsamiq.com/). They're ac
 
 |    Desktop   |    Tablet    |    Mobile    |
 |    :----:    |     :----:   |    :----:    |
-|[Home Page](readme-files/wireframes/home-desktop.png)|[Home Page](readme-files/wireframes/home-tablet.png)|[Home Page](readme-files/wireframes/home-mobile.png)|
-|[Menu Page](readme-files/wireframes/menu-desktop.png)|[Menu Page](readme-files/wireframes/menu-tablet.png)|[Menu Page](readme-files/wireframes/menu-mobile.png)|
-|[About Page](readme-files/wireframes/about-desktop.png)|[About Page](readme-files/wireframes/about-tablet.png)|[About Page](readme-files/wireframes/about-mobile.png)|
-|[Contact Page](readme-files/wireframes/contact-desktop.png)|[Contact Page](readme-files/wireframes/contact-tablet.png)|[Contact Page](readme-files/wireframes/contact-mobile.png)|
+|[Home Page](wireframes/desktop/home-desktop.png)|[Home Page](wireframes/tablet/home-tablet.png)|[Home Page](wireframes/mobile/home-mobile.png)|
+|[Menu Page](wireframes/desktop/menu-desktop.png)|[Menu Page](wireframes/tablet/menu-tablet.png)|[Menu Page](wireframes/mobile/menu-mobile.png)|
+|[About Page](wireframes/desktop/about-desktop.png)|[About Page](wireframes/tablet/about-tablet.png)|[About Page](wireframes/mobile/about-mobile.png)|
+|[Contact Page](wireframes/desktop/contact-desktop.png)|[Contact Page](wireframes/tablet/contact-tablet.png)|[Contact Page](wireframes/mobile/contact-mobile.png)|
 
 ---
 
@@ -84,11 +84,11 @@ This menu is made to be collapsible on smaller screen devices to improve the UX.
 
 **Favicon**: allows the user to identify the site by just seeing the icon on the tab.
 
-### 2.2. Features left to implement
+### 2.2. Features left to implement in the future
 
-- Backend to be able to submit the forms and send a comfirmation email.
-- Gallery with some pictures of the restaurant and the dishes
-- Section with testimonials and customers' reviews.
+- The form should be  submit the forms and send a comfirmation email.
+- Add a allery with some pictures of the restaurant and the dishes
+- Add a section with testimonials and customers' reviews.
 
 ---
 
@@ -159,8 +159,8 @@ The pictures used in this site were obtained from [Pixabay](https://pixabay.com/
 
 ### 6.1. Acknowledgments
 
-Precious Ijege for the mentor guidance and support.
+[Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/?originalSubdomain=ng) for the mentor guidance and support.
 
-The tutor team, and specially Scott, for their help and patience.
+The [Code Institute](https://codeinstitute.net/) tutor team, and specially Scott, for their help and patience.
 
 Emmet, Lucia, Marina for their feedback, their help with the testing on their personal devices, the spelling check in both English and Italian and also for their emotional support.

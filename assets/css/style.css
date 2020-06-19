@@ -429,6 +429,63 @@ h2 {
   padding-top: 80px;
 }
 
+/* --------------------------------------------- MENU PAGE */
+
+.menu-container {
+  color: #fafafa;
+  font-size: 1.15rem;
+}
+
+.menu-container-bg {
+  background: url(../images/blackboard.jpg);
+  width: 100%;
+  height: 100%;
+}
+
+.panel-heading a {
+  text-decoration: none;
+  color: #fafafa;
+}
+
+.menu-area-title {
+  margin: 30px 0;
+  font-size: 2.5rem;
+  padding-top: 30px;
+}
+
+.menu-item {
+  margin: 10px 0;
+}
+
+.menu-item h5 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.item-price {
+  font-size: 0.85rem;
+  font-weight: normal;
+}
+
+.item-specification {
+  background-color: #701515;
+  border-radius: 50%;
+  border: 1px solid #701515;
+  padding: 4px;
+  font-size: 0.6rem;
+  font-weight: bold;
+}
+
+.insalate-extras,
+.pizze-extras {
+  margin-bottom: 20px;
+}
+
+.insalate-extras,
+.pizze-extras p {
+  margin: 5px 20px;
+}
+
 /* --------------------------------------------- ABOUT US PAGE */
 
 .about-container {
@@ -467,63 +524,6 @@ h2 {
   padding-bottom: 20px;
   font-family: "Fredericka the Great", sans-serif;
   font-size: 2rem;
-}
-
-/* --------------------------------------------- MENU PAGE */
-
-.menu-container {
-  color: #fafafa;
-  font-size: 0.85rem;
-}
-
-.menu-container-bg {
-  background: url(../images/blackboard.jpg);
-  width: 100%;
-  height: 100%;
-}
-
-.panel-heading a {
-  text-decoration: none;
-  color: #fafafa;
-}
-
-.menu-area-title {
-  margin: 30px 0;
-  font-size: 2.5rem;
-  padding-top: 30px;
-}
-
-.menu-item {
-  margin: 10px 0;
-}
-
-.menu-item h5 {
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-.item-price {
-  font-size: 0.6rem;
-  font-weight: normal;
-}
-
-.item-specification {
-  background-color: #701515;
-  border-radius: 50%;
-  border: 1px solid #701515;
-  padding: 4px;
-  font-size: 0.6rem;
-  font-weight: bold;
-}
-
-.insalate-extras,
-.pizze-extras {
-  margin-bottom: 20px;
-}
-
-.insalate-extras,
-.pizze-extras p {
-  margin: 5px 20px;
 }
 
 /* --------------------------------------------- CONTACT PAGE */
