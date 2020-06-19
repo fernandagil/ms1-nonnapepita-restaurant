@@ -111,7 +111,7 @@ This menu is made to be collapsible on smaller screen devices to improve the UX.
 
 ## 4. Testing
 
-The testing process can be seen [here](readme-files/TESTING.md).
+The testing process can be seen [here](TESTING.md).
 
 ---
 
