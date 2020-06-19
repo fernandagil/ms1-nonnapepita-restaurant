@@ -2,11 +2,32 @@
 
 ## Code validators
 
-[Markup Validator](https://validator.w3.org/) : the test returned an error that was solved by adding an empty value attribute. The warnings were ignored since they were design decisions. 
+[HTML Validator](https://validator.w3.org/) : 
 
-![Markup Validator](htmlvalidator.png)
+- Home Page
+
+![Home Page HTML Validator](readme-files/homevalidator.png)
+
+The test returned an error that was solved by adding an empty value attribute. The warnings were ignored since they were design decisions. 
+
+- Menu Page
+
+![Menu Page HTML Validator](readme-files/#.png)
+
+- About Page
+
+![About Page HTML Validator](readme-files/aboutvalidator.png)
+
+The warning was ignored following design decisions.
+
+- Contact Page
+
+![Contact Page HTML Validator](readme-files/contactvalidator.png)
+
 
 [CSS Validator](https://jigsaw.w3.org/css-validator/) : the test didn't find any errors.
+
+![CSS Validator](readme-files/cssvalidator.png)
 
 ## Responsiveness
 
@@ -69,10 +90,14 @@ This is easy accessible on the **Menu Page**. The user can access this from ever
 
 ## Bugs 
 
-- One of the major bugs I found during the development process was the overflowing jumbotron on mobile's landscape mode. 
+- One of the major bugs I found during the development process was the overflowing jumbotron in **Home Page** on mobile's landscape mode. 
+  - This was solved by adding some media queries to make reduce some margins and paddings.
 
-This was solved by adding some media queries to make reduce some margins and paddings.
+- When browsing the site on mobile, the Restaurant’s menu on **Menu Page** looked very cramped out and it was difficult to read. 
+  - This was solved by making the menu in the form of a dropwdown list in the mobile mode.
 
+- The content inside the sections *history* and *where to find us* in **Home Page** were not align vertically with respect to each other.
+  - This was solved by using the align-self-center class from Bootstrap.
 
 ## Bugs to be fixed
 
