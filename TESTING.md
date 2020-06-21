@@ -46,7 +46,6 @@ Notes:
 
 Notes:
 
-- The site renders quite good on Firefox, although on the **Menu Page** the headings show a white overlay/background.
 - On Microsoft Edge and Internet Explorer, the call to action button on **Home Page** doesn't seem to show the background color, but thanks to the border that does display properly it's easy to still see that is a button.
 
 ## Testing User stories
@@ -102,9 +101,8 @@ Notes:
 - The content inside the sections *history* and *where to find us* in **Home Page** were not align vertically with respect to each other.
   - This was solved by using the align-self-center class from Bootstrap.
 
-## Bugs to be fixed
-
-- When using Firefox, the white overlay on headings on the **Menu Page**.
+- While testing the site on Firefox, the headings in the **Menu Page** seemed to have a white overlay/background.
+  - This was solved by removing an unnecessary div container
 
 [Go back to README.md file](README.md).
 
