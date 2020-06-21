@@ -59,7 +59,7 @@ Notes:
 
   and
 - As a person celebrating a special occasion, I want to be able to book a table in advance so nothing goes wrong.
-  - The user can find a Reservation Form when they scroll down in **Home Page**.
+  - The user can find a Reservation Form when they scroll down to *Make a Reservation* in **Home Page**.
   - Alternatively, the user can find a link to go back to this form in **Contact Page**. 
 
 - As an owner, I want my website to be easy recognisable through the icon in the tab and also through the name on the fixed navbar while the customers are navigating through the site.
