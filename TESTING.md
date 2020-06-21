@@ -14,14 +14,14 @@ The warnings were ignored since they were design decisions.
 
 - Menu Page
 
-![Menu Page HTML Validator](readme-files/#.png)
+![Menu Page HTML Validator](readme-files/contactvalidator.png)
 
 - About Page
 
 ![About Page HTML Validator](readme-files/aboutvalidator.png)
 
 The warning was ignored following design decisions.
-git
+
 - Contact Page
 
 ![Contact Page HTML Validator](readme-files/contactvalidator.png)
