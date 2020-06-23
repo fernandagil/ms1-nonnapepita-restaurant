@@ -102,7 +102,7 @@ Notes:
   - This was solved by using the align-self-center class from Bootstrap.
 
 - While testing the site on Firefox, the headings in the **Menu Page** seemed to have a white overlay/background.
-  - This was solved by removing an unnecessary div container
+  - This was solved by removing an unnecessary div container.
 
 [Go back to README.md file](README.md).
 
